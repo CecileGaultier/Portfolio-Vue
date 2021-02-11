@@ -1,17 +1,17 @@
 <template>
  <div>
-   About
+   Contact
  </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'Contact',
   data () {
-   return {
+    return {
       
     }
-  }
+  },
 }
 </script>
 

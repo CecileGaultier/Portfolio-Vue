@@ -6,10 +6,12 @@
 
 <script>
 export default {
-  name: 'About',
+  name: 'Projects',
   data () {
-   
-  }
+    return {
+      
+    }
+  },
 }
 </script>
 

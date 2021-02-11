@@ -1,17 +1,17 @@
 <template>
  <div>
-   About
+   Hobbies
  </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'Hobbies',
   data () {
-   return {
+    return {
       
     }
-  }
+  },
 }
 </script>
 
