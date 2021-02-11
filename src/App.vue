@@ -37,11 +37,56 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body{
+  font-family: "Jura", sans-serif;
+  color: #1F1F1F;
+}
+
+h1,h2,h4,h5{
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  border-bottom: #af1f28 4px solid;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+h3{
+  color: #af1f28;
+}
+
+a{
+  color: #1F1F1F;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #1F1F1F;
+}
+
 .navbar{
   background-color: #1F1F1F;
 }
 
 .contact{
   border: 1px grey solid;
+}
+
+.intro{
+  background-color:rgba(34, 32, 31, .75);
+  color: white;
+}
+
+.case{
+  margin-bottom: 25rem;
+  margin-top: 10rem;
 }
 </style>
