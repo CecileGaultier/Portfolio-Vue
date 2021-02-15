@@ -7,31 +7,13 @@
         Here is a list of all my projects over the years.
       </p>
 
-      <div id="list">
-        <h4>2021</h4>
-        <ul>
-          <li>- Perfect Room | 3D computer graphics</li>
-          <li>- MMI Notes | Android application</li>
-          <li>- Portfolio | Vue.js web site</li>
-          <li>- Accounting fake boat company | Marketing - Project leader</li>
-          <li>- Geolocalisation Application Android | Ionic Cordova</li>
-          <li>- SMS Application Android | Ionic, Cordova</li>
-          <li>- Mail Application Android | Ionic, Cordova</li>
-          <li>- Photo Application Android | Ionic, Cordova</li>
-          <li>- Phone call Application Android | Ionic, Cordova</li>
-          <li>- Movie Application Android | Ionic, Cordova</li>
-          <li>- Lego | 3D computer graphics</li>
-          <li>- Mo (Wall-E) | 3D computer graphics</li>
-          <li>- Francis Ford Coppola | Vue.js website</li>
-          <li>- Incamp | Wordpress website - Project leader</li>
-          <li>- MMI in the Sims 4 | Photoshop, 3D computer graphics</li>
-          <li>- Jquery animations| JS</li>
-          <li>- Exercices Animation.JS | JS</li>
-          <li>- Transhumanism Posts | Community Management, English</li>
-          <li>- News Posts | Community Management, English</li>
-          <li>- Wish 2021 | Adobe XD, Dribbble Warm-up, English</li>
-          <li>- Draw this in your style challenges</li>
-        </ul>
+      <div id="list" v-for="info in donnees" :key="info.id">
+        <div>
+          <h4>{{info.title}}</h4>
+          <ul>
+            <li v-for="pro in info.projects" :key="pro.id">{{pro.text}}</li>
+          </ul>
+        </div>
 
         <h4 class="mt-5">2020</h4>
         <ul>
@@ -158,9 +140,24 @@ export default {
   name: 'All',
   data () {
    return {
-      
+      donnees :[]
     }
-  }
+  },
+
+  created(){
+        //lecture json directement avec Axios (json dans static)
+        axios.get('static/all.json')
+        .then(function(response){
+        //succès réponse
+        console.log(response.data);
+        this.donnees = response.data;
+        }.bind(this)) //Zone isolée -> bind pour closure
+        .catch(function(error){
+        //erreur requete
+        console.log(error)
+        })
+  },
+
 }
 </script>
 

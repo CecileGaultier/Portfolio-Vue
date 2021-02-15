@@ -1,24 +1,181 @@
 [
     {
         "id": "1",
-        "mail" :[
+        "title" : "2021",
+        "projects" : [
             {
-                "id" : "1",
-                "title" : "Mail",
-                "subtitle" : "Contact",
-                "text" : "I have two different email. The first one is more private but I will answer quicker. the second is more formal.",
-                "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iOTEuNSIgdmlld0JveD0iMCAwIDEyMiA5MS41Ij48cGF0aCBkPSJNMTIyLDEyLjEyNXY3Ni4yNUE3LjQ4OSw3LjQ4OSwwLDAsMSwxMTQuMzc1LDk2SDEwNi43NVYyNi44TDYxLDU5LjY1NCwxNS4yNSwyNi44Vjk2SDcuNjI1QTcuNDg2LDcuNDg2LDAsMCwxLDAsODguMzc1VjEyLjEyNUE3LjQ5Myw3LjQ5MywwLDAsMSw3LjYyNSw0LjVoMi41NDJMNjEsNDEuMzU0LDExMS44MzMsNC41aDIuNTQyQTcuNDkzLDcuNDkzLDAsMCwxLDEyMiwxMi4xMjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC00LjUpIiBmaWxsPSIjMzIzMDJmIi8+PC9zdmc+",
-                "alt" : "Illustration GMAIL Icon",
-                "info": "(1) gaulph@gmail.com | (2) contact-pro@cecile-gaultier.fr"
+                "id": "1",
+                "text": "- Perfect Room | 3D computer graphics"
             },
             {
-                "id" : "2",
-                "title" : "Phone",
-                "subtitle" : "Number",
-                "text" : "You can contact me on my private phone. I strongly recommend you to leave a message on my voicemail or to send me a message.",
-                "alt" : "Illustration Phone Icon",
-                "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iMTIyIiB2aWV3Qm94PSIwIDAgMTIyIDEyMiI+PHBhdGggZD0iTTMuNDgsODYuMjEsMzAuMTY4LDc0Ljc3MmE1LjcxOSw1LjcxOSwwLDAsMSw2LjY3MiwxLjY0NGwxMS44MTksMTQuNDRBODguMzIyLDg4LjMyMiwwLDAsMCw5MC44OCw0OC42MzVMNzYuNDQsMzYuODE2QTUuNyw1LjcsMCwwLDEsNzQuOCwzMC4xNDRMODYuMjMzLDMuNDU2QTUuNzU3LDUuNzU3LDAsMCwxLDkyLjc4Ni4xNDRsMjQuNzgxLDUuNzE5QTUuNzE5LDUuNzE5LDAsMCwxLDEyMiwxMS40MzcsMTEwLjU1MSwxMTAuNTUxLDAsMCwxLDExLjQzNiwxMjJhNS43MTksNS43MTksMCwwLDEtNS41NzYtNC40MzJMLjE0MSw5Mi43ODZBNS43ODgsNS43ODgsMCwwLDEsMy40OCw4Ni4yMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiIGZpbGw9IiMzMjMwMmYiLz48L3N2Zz4=",
-                "info": "+33 (0)6 26 11 10 01"
+                "id": "2",
+                "text": "- MMI Notes | Android application"
+            },
+            {
+                "id": "3",
+                "text": "- Portfolio | Vue.js web site"
+            },
+            {
+                "id": "4",
+                "text": "- Accounting fake boat company | Marketing - Project leader"
+            },
+            {
+                "id": "5",
+                "text": "- Geolocalisation Application Android | Ionic Cordova"
+            },
+            {
+                "id": "6",
+                "text": "- SMS Application Android | Ionic, Cordova"
+            },
+            {
+                "id": "7",
+                "text": "- Mail Application Android | Ionic, Cordova"
+            },
+            {
+                "id": "8",
+                "text": "- Photo Application Android | Ionic, Cordova"
+            },
+            {
+                "id": "9",
+                "text": "- Phone call Application Android | Ionic, Cordova"
+            },
+            {
+                "id": "10",
+                "text": "- Movie Application Android | Ionic, Cordova"
+            },
+            {
+                "id": "11",
+                "text": "- Lego | 3D computer graphics"
+            },
+            {
+                "id": "12",
+                "text": "- Mo (Wall-E) | 3D computer graphics"
+            },
+            {
+                "id": "13",
+                "text": "- Francis Ford Coppola | Vue.js website"
+            },
+            {
+                "id": "14",
+                "text": "- Incamp | Wordpress website - Project leader"
+            },
+            {
+                "id": "15",
+                "text": "- MMI in the Sims 4 | Photoshop, 3D computer graphics"
+            },
+            {
+                "id": "16",
+                "text": "- Jquery animations| JS"
+            },
+            {
+                "id": "17",
+                "text": "- Exercices Animation.JS | JS"
+            },
+            {
+                "id": "18",
+                "text": "- Transhumanism Posts | Community Management, English"
+            },
+            {
+                "id": "19",
+                "text": "- News Posts | Community Management, English"
+            },
+            {
+                "id": "20",
+                "text": "- Wish 2021 | Adobe XD, Dribbble Warm-up, English"
+            },
+            {
+                "id": "21",
+                "text": "- Draw this in your style challenges"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title" : "2020",
+        "projects" : [
+            {
+                "id": "1",
+                "text": "- Clone Wars | After Effect"
+            },
+            {
+                "id": "2",
+                "text": "- MMI | After Effect"
+            },
+            {
+                "id": "3",
+                "text": "- Portfolio | Bootstrap web site"
+            },
+            {
+                "id": "4",
+                "text": "- Incamp social network | Community management"
+            },
+            {
+                "id": "5",
+                "text": "- Incamp strategic communication | Communication"
+            },
+            {
+                "id": "6",
+                "text": "- Incamp SEO and concurrents analysis | SEO"
+            },
+            {
+                "id": "7",
+                "text": "- Prototype MMI sweat | Illustrator"
+            },
+            {
+                "id": "8",
+                "text": "- Incamp prior study | Project leader"
+            },
+            {
+                "id": "9",
+                "text": "- Website Exercices | Gulp"
+            },
+            {
+                "id": "10",
+                "text": "- Website Exercices | Less"
+            },
+            {
+                "id": "11",
+                "text": "- Website Exercices | Stencil"
+            },
+            {
+                "id": "12",
+                "text": "- Website Exercices | Webpack"
+            },
+            {
+                "id": "13",
+                "text": "- Print Art Nouveau style | Illustrator, Clip Studio Paint"
+            },
+            {
+                "id": "14",
+                "text": "- Print Mackintosh style | Illustrator"
+            },
+            {
+                "id": "15",
+                "text": "- Print Bauhaus style | Illustrator"
+            },
+            {
+                "id": "16",
+                "text": "- Print Roycroft style | Illustrator"
+            },
+            {
+                "id": "17",
+                "text": "- Birthday Boy | Transmedia, Premiere Pro - Project leader"
+            },
+            {
+                "id": "18",
+                "text": "- Muy Bad Reise | Virtual Escape Game Multilanguage"
+            },
+            {
+                "id": "19",
+                "text": "- After University | Google Data Studio"
+            },
+            {
+                "id": "20",
+                "text": "- Clean Walk | Communication"
+            },
+            {
+                "id": "21",
+                "text": "- Incamp presentation | Communication, English"
             }
         ]
     }
