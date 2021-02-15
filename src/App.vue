@@ -58,7 +58,7 @@ h2{
   font-size: 2.5rem;
 }
 
-h3{
+h3, h4{
   color: #af1f28;
 }
 
@@ -89,4 +89,25 @@ a:hover{
   margin-bottom: 25rem;
   margin-top: 10rem;
 }
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding-left: 0.5rem;
+}
+
+footer{
+  color: white;
+  background-color: #1f1f1f;
+  margin-bottom: 0;
+  padding-bottom: 3rem; 
+  padding-top: 3rem; 
+}
+
+footer a{
+  color: white;
+}
+
 </style>

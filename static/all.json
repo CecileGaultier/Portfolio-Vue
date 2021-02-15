@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "mail" :[
+            {
+                "id" : "1",
+                "title" : "Mail",
+                "subtitle" : "Contact",
+                "text" : "I have two different email. The first one is more private but I will answer quicker. the second is more formal.",
+                "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iOTEuNSIgdmlld0JveD0iMCAwIDEyMiA5MS41Ij48cGF0aCBkPSJNMTIyLDEyLjEyNXY3Ni4yNUE3LjQ4OSw3LjQ4OSwwLDAsMSwxMTQuMzc1LDk2SDEwNi43NVYyNi44TDYxLDU5LjY1NCwxNS4yNSwyNi44Vjk2SDcuNjI1QTcuNDg2LDcuNDg2LDAsMCwxLDAsODguMzc1VjEyLjEyNUE3LjQ5Myw3LjQ5MywwLDAsMSw3LjYyNSw0LjVoMi41NDJMNjEsNDEuMzU0LDExMS44MzMsNC41aDIuNTQyQTcuNDkzLDcuNDkzLDAsMCwxLDEyMiwxMi4xMjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC00LjUpIiBmaWxsPSIjMzIzMDJmIi8+PC9zdmc+",
+                "alt" : "Illustration GMAIL Icon",
+                "info": "(1) gaulph@gmail.com | (2) contact-pro@cecile-gaultier.fr"
+            },
+            {
+                "id" : "2",
+                "title" : "Phone",
+                "subtitle" : "Number",
+                "text" : "You can contact me on my private phone. I strongly recommend you to leave a message on my voicemail or to send me a message.",
+                "alt" : "Illustration Phone Icon",
+                "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iMTIyIiB2aWV3Qm94PSIwIDAgMTIyIDEyMiI+PHBhdGggZD0iTTMuNDgsODYuMjEsMzAuMTY4LDc0Ljc3MmE1LjcxOSw1LjcxOSwwLDAsMSw2LjY3MiwxLjY0NGwxMS44MTksMTQuNDRBODguMzIyLDg4LjMyMiwwLDAsMCw5MC44OCw0OC42MzVMNzYuNDQsMzYuODE2QTUuNyw1LjcsMCwwLDEsNzQuOCwzMC4xNDRMODYuMjMzLDMuNDU2QTUuNzU3LDUuNzU3LDAsMCwxLDkyLjc4Ni4xNDRsMjQuNzgxLDUuNzE5QTUuNzE5LDUuNzE5LDAsMCwxLDEyMiwxMS40MzcsMTEwLjU1MSwxMTAuNTUxLDAsMCwxLDExLjQzNiwxMjJhNS43MTksNS43MTksMCwwLDEtNS41NzYtNC40MzJMLjE0MSw5Mi43ODZBNS43ODgsNS43ODgsMCwwLDEsMy40OCw4Ni4yMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiIGZpbGw9IiMzMjMwMmYiLz48L3N2Zz4=",
+                "info": "+33 (0)6 26 11 10 01"
+            }
+        ]
+    }
+]

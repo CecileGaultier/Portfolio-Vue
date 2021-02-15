@@ -199,16 +199,4 @@ export default {
 .download p{
   font-size: 1.4rem;
 }
-
-footer{
-  color: white;
-  background-color: #1f1f1f;
-  margin-bottom: 0;
-  padding-bottom: 3rem; 
-  padding-top: 3rem; 
-}
-
-footer a{
-  color: white;
-}
 </style>
