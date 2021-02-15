@@ -105,8 +105,8 @@
                   <h3>Download</h3>
                   <h2>Documents</h2>
                   <div class="text-center" v-for="down in info.download" :key="down.id"> 
-                    <div class="download my-3">
-                        <a :href=down.link>{{down.text}}</a>
+                    <div class="download my-3" @click="downloadWithAxios(down.src, down.title)">
+                        <p>{{down.text}}</p>
                     </div>
                   </div>
               </b-col>         
@@ -125,6 +125,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'Contact',
   data () {
@@ -145,6 +147,29 @@ export default {
         //erreur requete
         console.log(error)
         })
+  },
+
+  methods: {
+    forceFileDownload(response, title) {
+      console.log(title)
+      const url = window.URL.createObjectURL(new Blob([response.data]))
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', title)
+      document.body.appendChild(link)
+      link.click()
+    },
+    downloadWithAxios(url, title) {
+      axios({
+        method: 'get',
+        url,
+        responseType: 'arraybuffer',
+      })
+        .then((response) => {
+          this.forceFileDownload(response, title)
+        })
+        .catch(() => console.log('error occured'))
+    }
     }
 }
 </script>
@@ -168,7 +193,7 @@ export default {
   border: 2px solid #1f1f1f;
 }
 
-.download a{
+.download p{
   font-size: 1.4rem;
 }
 </style>

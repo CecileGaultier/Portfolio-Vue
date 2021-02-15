@@ -24,23 +24,27 @@
         "download" : [
             {
                 "id": "1",
-                "link" : "#",
-                "text" : "Resume - Developpement"
+                "src" : "#",
+                "text" : "Resume - Developpement",
+                "title" : "test.jpg"
             },
             {
                 "id": "2",
-                "link" : "#",
-                "text" : "Resume - Design"
+                "src" : "static/img/Cv-Design.9b19a5c.jpg",
+                "text" : "Resume - Design",
+                "title" : "Resume-Design.jpg"
             },
             {
                 "id": "3",
-                "link" : "#",
-                "text" : "RGPD - Attestation"
+                "src" : "static/img/rgpd.cc79c09.jpg",
+                "text" : "RGPD - Attestation",
+                "title" : "RGPD.jpg"
             },
             {
                 "id": "4",
-                "link" : "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iMTIyIiB2aWV3Qm94PSIwIDAgMTIyIDEyMiI+PHBhdGggZD0iTTMuNDgsODYuMjEsMzAuMTY4LDc0Ljc3MmE1LjcxOSw1LjcxOSwwLDAsMSw2LjY3MiwxLjY0NGwxMS44MTksMTQuNDRBODguMzIyLDg4LjMyMiwwLDAsMCw5MC44OCw0OC42MzVMNzYuNDQsMzYuODE2QTUuNyw1LjcsMCwwLDEsNzQuOCwzMC4xNDRMODYuMjMzLDMuNDU2QTUuNzU3LDUuNzU3LDAsMCwxLDkyLjc4Ni4xNDRsMjQuNzgxLDUuNzE5QTUuNzE5LDUuNzE5LDAsMCwxLDEyMiwxMS40MzcsMTEwLjU1MSwxMTAuNTUxLDAsMCwxLDExLjQzNiwxMjJhNS43MTksNS43MTksMCwwLDEtNS41NzYtNC40MzJMLjE0MSw5Mi43ODZBNS43ODgsNS43ODgsMCwwLDEsMy40OCw4Ni4yMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiIGZpbGw9IiMzMjMwMmYiLz48L3N2Zz4=",
-                "text" : "Cambridge - Certification"
+                "src" : "static/img/cambridge.83d2761.jpg",
+                "text" : "Cambridge - Certification",
+                "title" : "Cambridge.jpg"
             }
         ]
     }
