@@ -4,8 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
-//import Vue from 'vue'
+//import Vue I18n
 import VueI18n from 'vue-i18n'
 
 
@@ -17,6 +19,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Import de vue-moment
 import VueMoment from 'vue-moment'
+
+Vue.use(VueAxios, axios)
 
 Vue.use(VueI18n)
 
