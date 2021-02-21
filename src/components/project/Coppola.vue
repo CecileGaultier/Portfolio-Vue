@@ -46,6 +46,36 @@
           </b-row>
        </b-col>
      </b-row>
+
+     <img src="../../assets/coppola-carrousel-1.jpg" alt="test" class="img-fluid my-5">
+
+    <b-row class="my-5">
+      <b-col cols="12" sm="7">
+        <h3>Reflection</h3>
+        <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
+      </b-col>
+    </b-row>
+    
+    <div class="my-5">
+      <h3>First Page</h3>
+      <img :src=info.accueil alt="Mock-up Accueil" class="img-fluid">
+    </div>
+
+    <div class="my-5">
+      <h3>Responsive</h3>
+      <img :src=info.responsive alt="Mock-up Responsive" class="img-fluid">
+    </div>
+
+    <div class="my-5">
+      <h3>Ressources</h3>
+      <b-row >
+        <b-col cols="12" sm="6" v-for="res in info.ressources" :key="res.id" class="my-3">
+          <img :src=res.img alt="Ressources" class="img-fluid" style="max-width:300px">
+        </b-col>
+      </b-row>
+    </div>
+
+     
    </b-container>
 
    <footer class="text-center mt-5">
