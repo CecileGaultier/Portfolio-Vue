@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "cat":[
+            {
+                "id" :"1",
+                "name":"Web"
+            },
+            {
+                "id" :"2",
+                "name":"Individual"
+            },
+            {
+                "id" :"3",
+                "name":"Scholar"
+            },
+            {
+                "id" :"4",
+                "name":"Responsive"
+            }
+        ],
+        "year": "2021",
+        "client":"DUT MMI",
+        "brief": "We had 48h to create a responsive website with Vue.js on random picked movie directors. I had Francis Ford Coppola and I was inspired by the themes of his movies.",
+        "ls" :[
+            {
+                "id":"1",
+                "name": "HTML"
+            },
+
+            {
+                "id":"1",
+                "name": "CSS"
+            },
+
+            {
+                "id":"1",
+                "name": "Bootstrap"
+            },
+
+            {
+                "id":"1",
+                "name": "Bootstrap-Vue"
+            },
+
+            {
+                "id":"1",
+                "name": "Vue-JS"
+            }
+        ]
+    }
+]

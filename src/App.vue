@@ -62,6 +62,15 @@ h2{
   font-size: 2.5rem;
 }
 
+.presentation{
+  border-left: #af1f28 3px solid;
+  padding-bottom: .5rem;
+}
+
+.presentation h2{
+  border: initial;
+}
+
 h3, h4{
   color: #af1f28;
 }
@@ -122,7 +131,7 @@ a.btn2:hover{
 }
 
 .intro{
-  background-color:rgba(34, 32, 31, .75);
+  background-color:rgba(34, 32, 31, .85);
   color: white;
 }
 
@@ -142,6 +151,15 @@ ul{
 p.cat{
   color: #af1f28;
   border: 2px solid #af1f28;
+  padding: .5rem 1rem;
+  display: block;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+p.cat2{
+  color: white;
+  border: 2px solid white;
   padding: .5rem 1rem;
   display: block;
   font-weight: bold;
