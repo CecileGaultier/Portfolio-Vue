@@ -1,0 +1,149 @@
+[
+    {
+        "id": "1",
+        "projects" :[
+            {
+                "id" : "1",
+                "title" : "Francis Ford Coppola",
+                "subtitle" : "2021",
+                "text" : "We had to conceive and build a responsive website about an assigned famous movie director. I based all my reflection around Francis Ford Coppola’s world and his movies.",
+                "icon": "static/img/coppola2.7ad01e1.jpg",
+                "alt" : "Mock-up Coppola website",
+                "link": "/coppola",
+                "cat":[
+                    {
+                        "id" :"1",
+                        "name":"Web"
+                    },
+                    {
+                        "id" :"2",
+                        "name":"Individual"
+                    },
+                    {
+                        "id" :"3",
+                        "name":"Scholar"
+                    },
+                    {
+                        "id" :"4",
+                        "name":"Responsive"
+                    }
+                ]
+            },
+
+            {
+                "id" : "2",
+                "title" : "Incamp",
+                "subtitle" : "2021",
+                "text" : "Pays de Montbéliard Agglomération (PMA) wanted a responsive website that spotlighted different initiatives for the university ’ campus. I was the project leader and also the developer for this project.",
+                "alt" : "Mock-up Incamp website",
+                "icon": "static/img/incamp3.e4e8a7b.jpg",
+                "link": "/incamp",
+                "cat":[
+                    {
+                        "id" :"1",
+                        "name":"Web"
+                    },
+                    {
+                        "id" :"2",
+                        "name":"Developer"
+                    },
+                    {
+                        "id" :"3",
+                        "name":"Project Leader"
+                    },
+                    {
+                        "id" :"4",
+                        "name":"Scholar"
+                    },
+                    {
+                        "id" :"5",
+                        "name":"Responsive"
+                    }
+                ]
+            }
+
+            ,
+            {
+                "id" : "3",
+                "title" : "MMI Notes",
+                "subtitle" : "2021",
+                "text" : "We are conceiving an application on android by pairs. Every student from MMI can connect to their account in order to see their grades and if they have their semester. We are using ionic 3.",
+                "alt" : "Mock-up MMI NOTES website",
+                "icon": "static/img/mmi-notes1.f53eff8.jpg",
+                "link": "/mminotes",
+                "cat":[
+                    {
+                        "id" :"1",
+                        "name":"Application"
+                    },
+                    {
+                        "id" :"2",
+                        "name":"Collective"
+                    },
+                    {
+                        "id" :"3",
+                        "name":"Scholar"
+                    },
+                    {
+                        "id" :"4",
+                        "name":"Mobile"
+                    }
+                ]
+            }
+
+            ,
+            {
+                "id" : "4",
+                "title" : "Perfect Room",
+                "subtitle" : "2021",
+                "text" : "We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all with the library Three.js into an HTML Page. The viewers can interact with the room and the objects. ",
+                "alt" : "Mock-up Perfect Room website",
+                "icon": "static/img/bureau-reve-3.74a6ae3.jpg",
+                "link": "/proom",
+                "cat":[
+                    {
+                        "id" :"1",
+                        "name":"3D"
+                    },
+                    {
+                        "id" :"2",
+                        "name":"Collective"
+                    },
+                    {
+                        "id" :"3",
+                        "name":"Scholar"
+                    }
+                ]
+            }
+
+            ,
+            {
+                "id" : "5",
+                "title" : "Fly New",
+                "subtitle" : "2019",
+                "text" : "This is my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.",
+                "alt" : "Mock-up Fly New website",
+                "icon": "static/img/fly-new2.821f716.jpg",
+                "link": "/fly",
+                "cat":[
+                    {
+                        "id" :"1",
+                        "name":"Web"
+                    },
+                    {
+                        "id" :"2",
+                        "name":"Individual"
+                    },
+                    {
+                        "id" :"3",
+                        "name":"Scholar"
+                    },
+                    {
+                        "id" :"4",
+                        "name":"Mobile"
+                    }
+                ]
+            }
+        ]
+    }
+]

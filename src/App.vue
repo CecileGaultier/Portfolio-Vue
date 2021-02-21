@@ -39,7 +39,7 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
 
 body{
   font-family: "Jura", sans-serif;
@@ -47,13 +47,17 @@ body{
 }
 
 h1,h2,h4,h5{
-  font-family: "Oswald", sans-serif;
+  font-family: "Teko", sans-serif;
+}
+
+h1{
   font-weight: bold;
+    font-size: 4rem;
 }
 
 h2{
-  border-bottom: #af1f28 4px solid;
-  padding-bottom: 1rem;
+  border-bottom: #af1f28 3px solid;
+  padding-bottom: .5rem;
   margin-bottom: 1rem;
   font-size: 2.5rem;
 }
@@ -64,12 +68,49 @@ h3, h4{
 
 a{
   color: #1F1F1F;
-  font-weight: bold;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+
 }
 
 a:hover{
   text-decoration: none;
   color: #1F1F1F;
+}
+
+
+a.btn{
+  color: white;
+  border: 1px solid white;
+  padding: .2rem 2rem;
+  font-family: "Teko",sans-serif;
+  font-size: 1.5rem;
+
+}
+
+a.btn:hover{
+  color: #ffa4ab;
+  border: 1px solid #ffa4ab;
+  padding: .2rem 2rem;
+  font-family: "Teko",sans-serif;
+  font-size: 1.5rem;
+
+}
+
+a.btn2{
+  color: #1f1f1f;
+  border: 2px solid #1f1f1f;
+  padding: .2rem 2rem;
+  font-family: "Teko",sans-serif;
+  font-size: 1.5rem;
+}
+
+a.btn2:hover{
+  color: #777777;
+  border: 2px solid #777777;
+  padding: .2rem 2rem;
+  font-family: "Teko",sans-serif;
+  font-size: 1.5rem;
 }
 
 .navbar{
@@ -98,6 +139,15 @@ ul{
   padding-left: 0.5rem;
 }
 
+p.cat{
+  color: #af1f28;
+  border: 2px solid #af1f28;
+  padding: .5rem 1rem;
+  display: block;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
 footer{
   color: white;
   background-color: #1f1f1f;
@@ -110,4 +160,8 @@ footer a{
   color: white;
 }
 
+
+footer a:hover{
+  color: #ffa4ab;
+}
 </style>

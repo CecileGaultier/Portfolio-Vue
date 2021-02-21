@@ -6,7 +6,7 @@
          <b-col cols="12" sm="4" class="intro my-5">
            <h1 class="my-5">Contact</h1>
            <div class="my-5">
-             <p>
+             <p class="my-5">
                You will find down below my coordinates and you can download my resumes , certifications and attestations.
              </p>
            </div>
