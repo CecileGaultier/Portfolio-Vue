@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Web"
+                },
+                {
+                    "id" :"2",
+                    "name":"Developer"
+                },
+                {
+                    "id" :"3",
+                    "name":"Scholar"
+                },
+                {
+                    "id" :"4",
+                    "name":"Responsive"
+                },
+                {
+                    "id" :"5",
+                    "name":"Project Leader"
+                }
+            ],
+        "year": "2021",
+        "client":"Pays Montbéliard Agglomération",
+        "brief": "Our client needed a website regrouping all the green initiatives on the university’ s campus. The website must be very clear and informative because a lot of students or teachers didn ’t know how to use some initiatives.",
+        "ls" :[
+            {
+                "id":"1",
+                "name": "HTML"
+            },
+
+            {
+                "id":"2",
+                "name": "CSS"
+            },
+
+            {
+                "id":"3",
+                "name": "Bootstrap"
+            },
+
+            {
+                "id":"4",
+                "name": "Wordpress"
+            }
+        ],
+        "reflection": [
+            {
+                "id":"1",
+                "text":"We tried to make the website very light and clear. That is why we don’t have a lot of colors but we used free rights illustration to avoid a cold website. We didn’t have a lot of resources so we took photos, built animated videos, wrote articles and animated Incamp’ s social networks. "
+            },
+            {
+                "id":"2",
+                "text":" We have discovered that very few people knew about the initiatives and how they worked. So we have integrated new functionalities like a map (initiatives’ location), a quiz and guides for users. Our client didn ’t know how to use the website so we chose Wordpress and installed very user-friendly plugins for them such as Yoast for example."
+            },
+            {
+                "id":"3",
+                "text":"We also installed functionalities which helped us to keep track on the websites even after the due date like Google analyst."
+            }
+        ]
+    }
+]

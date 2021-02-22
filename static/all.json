@@ -86,6 +86,14 @@
             {
                 "id": "21",
                 "text": "- Draw this in your style challenges"
+            },
+            {
+                "id": "22",
+                "text": "- Bus station | 3D computer graphics"
+            },
+            {
+                "id": "23",
+                "text": "- Kitchen | 3D computer graphics"
             }
         ]
     },
@@ -240,6 +248,18 @@
             {
                 "id": "37",
                 "text": "- Fantasy Cupcakes | Adobe XD"
+            },
+            {
+                "id": "38",
+                "text": "- Movies List | Google Data Studio"
+            },
+            {
+                "id": "39",
+                "text": "- Location Geoloc | Google Data Studio"
+            },
+            {
+                "id": "40",
+                "text": "- Star Wars List | Google Data Studio"
             }
         ]
     },

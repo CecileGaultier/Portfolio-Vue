@@ -43,7 +43,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img :src=project.icon :alt=project.alt class="img-fluid" style="max-width:250px">
+                 <img :src="project.icon" :alt=project.alt class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>

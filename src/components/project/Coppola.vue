@@ -47,35 +47,85 @@
        </b-col>
      </b-row>
 
-     <img src="../../assets/coppola-carrousel-1.jpg" alt="test" class="img-fluid my-5">
+      <b-col cols="12">
+        <div class="carousel" data-ride="carousel" id="monCarousel" data-interval="1500">
+            <ol class="carousel-indicators">
+                <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#monCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#monCarousel" data-slide-to="2" class=""></li>
+                <li data-target="#monCarousel" data-slide-to="3" class=""></li>
+            </ol>
+            
+            <div class="carousel-inner">  
+                <div class="carousel-item active">
+                    <img src="../../assets/coppola-carrousel-1.jpg" class="d-block w-100">         
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../assets/coppola-carrousel-2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item ">
+                    <img src="../../assets/coppola-carrousel-3.jpg" class="d-block w-100">
+                </div>
+               <div class="carousel-item ">
+                    <img src="../../assets/coppola-carrousel-4.jpg" class="d-block w-100">
+                </div>
+            </div>
 
-    <b-row class="my-5">
-      <b-col cols="12" sm="7">
-        <h3>Reflection</h3>
-        <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
-      </b-col>
-    </b-row>
+            <a href="#monCarousel"
+                class="carousel-control-prev"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#monCarousel"
+                class="carousel-control-next"
+                data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+      </b-col>       
     
-    <div class="my-5">
-      <h3>First Page</h3>
-      <img :src=info.accueil alt="Mock-up Accueil" class="img-fluid">
-    </div>
+    <div id="coppola2">
 
-    <div class="my-5">
-      <h3>Responsive</h3>
-      <img :src=info.responsive alt="Mock-up Responsive" class="img-fluid">
-    </div>
-
-    <div class="my-5">
-      <h3>Ressources</h3>
-      <b-row >
-        <b-col cols="12" sm="6" v-for="res in info.ressources" :key="res.id" class="my-3">
-          <img :src=res.img alt="Ressources" class="img-fluid" style="max-width:300px">
+      <b-row class="my-5">
+        <b-col cols="12" sm="7">
+          <h3>Reflection</h3>
+          <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
         </b-col>
       </b-row>
+      
+      <div class="my-5">
+        <h3>First Page</h3>
+        <img src="../../assets/coppola-accueil.jpg" alt="Mock-up Accueil" class="img-fluid">
+      </div>
+
+      <div class="my-5">
+        <h3>Responsive</h3>
+        <img src="../../assets/coppola-responsive.jpg" alt="Mock-up Responsive" class="img-fluid">
+      </div>
+
+      <div class="my-5">
+        <h3>Ressources</h3>
+        <b-row >
+          <b-col cols="12" sm="6">
+            <img src="../../assets/Bio-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+          </b-col>
+          <b-col cols="12" sm="6">
+            <img src="../../assets/Ajout-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+          </b-col>
+          <b-col cols="12" sm="6">
+            <img src="../../assets/Camera-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+          </b-col>
+          <b-col cols="12" sm="6">
+            <img src="../../assets/upload-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+          </b-col>
+          <b-col cols="12" sm="6">
+            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+          </b-col>
+        </b-row>
+      </div>
+           
     </div>
 
-     
    </b-container>
 
    <footer class="text-center mt-5">
@@ -122,4 +172,12 @@ export default {
   margin: 0;
   background-position-y: bottom;
 }
+
+#coppola2 h3{
+  border-left: #af1f28 3px solid;
+  padding-left: .5rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
 </style>

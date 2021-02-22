@@ -62,8 +62,6 @@
                 "text":"We had no instructions about images’ rights so I used free rights illustrations and some posters from Wikipedia. The texts are also coming from Wikipedia because we had very limited time."
             }
         ],
-        "accueil":"static/img/coppola-accueil.2e9a335.jpg",
-        "responsive": "static/img/coppola-responsive.fe51c83.jpg",
         "ressources": [
             {
                 "id":"1",
@@ -83,7 +81,7 @@
             },
             {
                 "id":"5",
-                "img": "http://localhost:8080/static/img/Prix-illu.3029159.svg"
+                "img": "static/img/Prix-illu.3029159.svg"
             }
         ]
     }
