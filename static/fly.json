@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Web"
+                },
+                {
+                    "id" :"2",
+                    "name":"Individual"
+                },
+                {
+                    "id" :"3",
+                    "name":"Scholar"
+                },
+                {
+                    "id" :"4",
+                    "name":"Mobile"
+                }
+            ],
+        "year": "2019",
+        "client":"DUT MMI",
+        "brief": "This website is static and informative. That’s why I used HTML, CSS and JS for this project. The target was french teenagers / young adults. However, I had to analyse precisely my futur viewers through marketing research. It shows that the targeted audience will more often use an iPhone 8 when visiting websites.  ",
+        "ls" :[
+            {
+                "id":"1",
+                "name": "HTML"
+            },
+
+            {
+                "id":"2",
+                "name": "CSS"
+            },
+
+            {
+                "id":"3",
+                "name": "JS"
+            }
+        ],
+        "reflection": [
+            {
+                "id":"1",
+                "text":"First, I have chosen to present a very well known and beloved superhero from the Marvel Universe : Iron Man. He is responsible for many pollutants but I have selected the air pollution, which is a serious threat in cities and in France. Then, I thought it was a great opportunity to work on innovative solutions like the Carinata plant."
+            },
+            {
+                "id":"2",
+                "text":"All my aesthetic is inspired from my three subjects. For example, Iron Man is often associated with red and yellow because of his suit. But the red means also the danger (air pollution) and yellow stands for the Carinata plant (solution). The color blue brings serenity and represents the sky (Iron Man, air Pollution and solution)."
+            },
+            {
+                "id":"3",
+                "text":"We had no limitations for image rights. So I mixed some of my illustrations which were made with Adobe Illustrator and different illustrations / graphs"
+            }
+        ]
+       
+    }
+]
