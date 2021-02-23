@@ -38,13 +38,9 @@
       
      </b-row>
 
-     <b-row>
-        <b-col cols="12" sm="3" >
-          <h3>Languages / Software</h3>
-          <b-row class="ml-1">
-            <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
-          </b-row>
-       </b-col>
+     <h3>Languages / Software</h3>
+     <b-row class="my-3 ml-1">
+        <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
      </b-row>
 
       <b-col cols="12">
@@ -107,19 +103,19 @@
         <h3>Ressources</h3>
         <b-row >
           <b-col cols="12" sm="6">
-            <img src="../../assets/Bio-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+            <img src="../../assets/Bio-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/Ajout-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+            <img src="../../assets/Ajout-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/Camera-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+            <img src="../../assets/Camera-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/upload-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+            <img src="../../assets/upload-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid" style="max-width:300px">
+            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
           </b-col>
         </b-row>
       </div>
@@ -176,8 +172,14 @@ export default {
 #coppola2 h3{
   border-left: #af1f28 3px solid;
   padding-left: .5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   font-size: 2.5rem;
+  margin-top: 12rem;
 }
+
+.carousel-inner{
+  margin-top: 10rem;
+}
+
 
 </style>

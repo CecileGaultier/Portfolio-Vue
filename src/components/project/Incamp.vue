@@ -39,14 +39,11 @@
       
      </b-row>
 
-     <b-row>
-        <b-col cols="12" sm="3" >
-          <h3>Languages / Software</h3>
-          <b-row class="ml-1">
-            <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
-          </b-row>
-       </b-col>
-     </b-row>
+    <h3>Languages / Software</h3>
+    <b-row class="my-3 ml-1">
+      <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
+    </b-row>
+      
 
       <b-col cols="12">
         <div class="carousel" data-ride="carousel" id="monCarousel" data-interval="1500">
@@ -110,8 +107,29 @@
           <div class="my-5">
             <h3>Ressources</h3>
             <b-row >
-              <b-col cols="12" sm="6" v-for="res in info.ressources" :key="res.id" class="my-3">
-                <img :src=res.img alt="Ressources" class="img-fluid" style="max-width:300px">
+              <b-col cols="12" sm="6">
+                <img src="../../assets/label-tepcv.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/logo-footer.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/logo-accueil.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/logo-sans-texte.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:100px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/question.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/recycling.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/people.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              </b-col>
+              <b-col cols="12" sm="6">
+                <img src="../../assets/watering_plant.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
               </b-col>
             </b-row>
           </div>
@@ -170,6 +188,11 @@ export default {
   padding-left: .5rem;
   margin-bottom: 1rem;
   font-size: 2.5rem;
+  margin-top: 12rem;
+}
+
+.carousel-inner{
+  margin-top: 10rem;
 }
 
 

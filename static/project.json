@@ -121,9 +121,9 @@
                 "id" : "5",
                 "title" : "Fly New",
                 "subtitle" : "2019",
-                "text" : "This is my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.",
+                "text" : "This was my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.",
                 "alt" : "Mock-up Fly New website",
-                "icon": "static/img/fly-new2.821f716.jpg",
+                "icon": "static/img/fly-new2.jpg",
                 "link": "/fly",
                 "cat":[
                     {

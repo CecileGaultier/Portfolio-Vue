@@ -17,7 +17,6 @@
        </b-row>
      </b-container>
    </div>
-
     <div  v-for="info in donnees" :key="info.id">
       <div class="case" v-for="project in info.projects" :key="project.id">
         <b-container>
