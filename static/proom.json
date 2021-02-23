@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"3D"
+                },
+                {
+                    "id" :"2",
+                    "name":"Collective"
+                },
+                {
+                    "id" :"3",
+                    "name":"Scholar"
+                }
+            ],
+        "year": "2021 - In progress",
+        "client":"DUT MMI",
+        "brief": "We are currently using 3Ds Max to create our perfect room / work space. Then, we will use the library Three.JS. The viewers can move inside the room and interact with different objects. They have to find a secret password and a secret vault. If they have the right combination they can access the vault’ s treasure.",
+        "ls" :[
+            {
+                "id":"1",
+                "name": "3Ds Max"
+            },
+
+            {
+                "id":"2",
+                "name": "Three.js"
+            }
+        ],
+        "reflection": [
+            {
+                "id":"1",
+                "text":"We have started by listing all of our favorite items and sketching the room. Then we have equally divided the different elements. Then we put all different objects in one file."
+            },
+            {
+                "id":"2",
+                "text":"We create different use-case and fake clues to mislead the viewer. The vault was given by the teacher but we built a program which declares if the combination is the right one and decides to open the door."
+            },
+            {
+                "id":"3",
+                "text":"We are currently working on the collisions between the viewers and the objects. We are also working on shadows and colored lights."
+            }
+        ]
+    }
+]

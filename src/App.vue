@@ -136,7 +136,7 @@ a.btn2:hover{
 }
 
 .case{
-  margin-bottom: 25rem;
+  margin-bottom: 15rem;
   margin-top: 10rem;
 }
 

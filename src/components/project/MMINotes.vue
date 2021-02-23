@@ -31,6 +31,7 @@
         <b-col cols="12" sm="6">
           <h3>Brief</h3>
           <p>{{info.brief}}</p>
+          <p>Made with <a href="http://timotheedurand.fr/">Timothée Durand</a></p>
        </b-col>
      </b-row>
 
