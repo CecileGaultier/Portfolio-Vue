@@ -17,7 +17,7 @@
        </b-row>
      </b-container>
    </div>
-    <div  v-for="info in donnees" :key="info.id">
+    <!-- <div  v-for="info in donnees" :key="info.id">
       <div class="case" v-for="project in info.projects" :key="project.id">
         <b-container>
           <b-row class="my-5">  
@@ -42,12 +42,196 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img :src="project.icon" :alt=project.alt class="img-fluid" style="max-width:250px">
+                 <img src="../assets/coppola2.jpg" :alt=project.alt class="img-fluid" style="max-width:250px">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div> -->
+
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2021</h3>
+                  <h2>Francis Ford Coppola</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">Web</p>
+                        <p class="cat">Individual</p>
+                        <p class="cat">Scholar</p>
+                        <p class="cat">Responsive</p>
+                    </b-row>
+                    <p>
+                      We had to conceive and build a responsive website about an assigned famous movie director. I based all my reflection around Francis Ford Coppola’s world and his movies.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/coppola">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                 <img src="../assets/coppola2.jpg" alt="Mockup Coppola" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>
       </div>
     </div>
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2021</h3>
+                  <h2>Incamp</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">Web</p>
+                        <p class="cat">Developer</p>
+                        <p class="cat">Project Leader</p>
+                        <p class="cat">Scholar</p>
+                        <p class="cat">Responsive</p>
+                    </b-row>
+                    <p>
+                      Pays de Montbéliard Agglomération (PMA) wanted a responsive website that spotlighted different initiatives for the university ’ campus. I was the project leader and also the developer for this project.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/incamp">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                <img src="../assets/incamp3.jpg" alt="Mockup Incamp" class="img-fluid" style="max-width:250px">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div>
+    
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2021</h3>
+                  <h2>MMI Notes</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">Web</p>
+                        <p class="cat">Individual</p>
+                        <p class="cat">Scholar</p>
+                        <p class="cat">Mobile</p>
+                    </b-row>
+                    <p>
+                      This was my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/fly">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                 <img src="../assets/mmi-notes1.jpg" alt="Mockup MMI Notes" class="img-fluid" style="max-width:250px">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div>
+
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2021</h3>
+                  <h2>Perfect Room</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">3D</p>
+                        <p class="cat">Collective</p>
+                        <p class="cat">Scholar</p>
+                    </b-row>
+                    <p>
+                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/proom">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                 <img src="../assets/bureau-reve-3.jpg" alt="Mockup Perfect Room" class="img-fluid" style="max-width:250px">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div>
+
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2019</h3>
+                  <h2>Fly New</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">3D</p>
+                        <p class="cat">Collective</p>
+                        <p class="cat">Scholar</p>
+                    </b-row>
+                    <p>
+                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/proom">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                 <img src="../assets/fly-new2.jpg" alt="Mockup Fly New" class="img-fluid" style="max-width:250px">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div>
+
     
 
     <footer class="text-center">
