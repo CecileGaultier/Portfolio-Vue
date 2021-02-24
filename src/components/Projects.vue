@@ -133,16 +133,16 @@
                   <h2>MMI Notes</h2>
                   <div class="my-5">
                     <b-row class="ml-1">
-                        <p class="cat">Web</p>
-                        <p class="cat">Individual</p>
+                        <p class="cat">Application</p>
+                        <p class="cat">Collective</p>
                         <p class="cat">Scholar</p>
                         <p class="cat">Mobile</p>
                     </b-row>
                     <p>
-                      This was my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.
+                      We are conceiving an application on android by pairs. Every student from MMI can connect to their account in order to see their grades and if they have their semester. We are using ionic 3.
                     </p>
                     <div class="my-5">
-                      <router-link to="/fly">
+                      <router-link to="/mminotes">
                         <a href="#" class="btn2">Discover</a>
                       </router-link>
                     </div>
@@ -205,16 +205,17 @@
                   <h3>2019</h3>
                   <h2>Fly New</h2>
                   <div class="my-5">
-                    <b-row class="ml-1">
-                        <p class="cat">3D</p>
-                        <p class="cat">Collective</p>
+                   <b-row class="ml-1">
+                        <p class="cat">Web</p>
+                        <p class="cat">Individual</p>
                         <p class="cat">Scholar</p>
+                        <p class="cat">Mobile</p>
                     </b-row>
                     <p>
-                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                      This was my first website as a student in MMI. We had to present a superhero, the pollution they created and one solution. I have based all my reflexion around Iron Man and the air pollution.
                     </p>
                     <div class="my-5">
-                      <router-link to="/proom">
+                      <router-link to="/fly">
                         <a href="#" class="btn2">Discover</a>
                       </router-link>
                     </div>
@@ -276,5 +277,7 @@ export default {
   margin: 0;
   background-position-y: center;
 }
+
+
 
 </style>

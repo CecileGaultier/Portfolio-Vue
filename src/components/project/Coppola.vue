@@ -43,42 +43,16 @@
         <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
      </b-row>
 
-      <b-col cols="12">
-        <div class="carousel" data-ride="carousel" id="monCarousel" data-interval="1500">
-            <ol class="carousel-indicators">
-                <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#monCarousel" data-slide-to="1" class=""></li>
-                <li data-target="#monCarousel" data-slide-to="2" class=""></li>
-                <li data-target="#monCarousel" data-slide-to="3" class=""></li>
-            </ol>
-            
-            <div class="carousel-inner">  
-                <div class="carousel-item active">
-                    <img src="../../assets/coppola-carrousel-1.jpg" class="d-block w-100">         
-                </div>
-                <div class="carousel-item ">
-                    <img src="../../assets/coppola-carrousel-2.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item ">
-                    <img src="../../assets/coppola-carrousel-3.jpg" class="d-block w-100">
-                </div>
-               <div class="carousel-item ">
-                    <img src="../../assets/coppola-carrousel-4.jpg" class="d-block w-100">
-                </div>
-            </div>
+     <!-- <div class="carrousel">
+       <img src="../../assets/coppola-carrousel-1.jpg" style="width:100%" class="mySlides">
+        
+        <img src="../../assets/coppola-carrousel-2.jpg" style="width:100%" class="mySlides">
+        
+        <img src="../../assets/coppola-carrousel-3.jpg" style="width:100%" class="mySlides">
 
-            <a href="#monCarousel"
-                class="carousel-control-prev"
-                data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a href="#monCarousel"
-                class="carousel-control-next"
-                data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
-      </b-col>       
+        <img src="../../assets/coppola-carrousel-4.jpg" style="width:100%" class="mySlides">
+     </div> -->
+             
     
     <div id="coppola2">
 
@@ -151,8 +125,26 @@ export default {
         .catch(function(error){
         //erreur requete
         console.log(error)
-        })
+        });
+
+
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > x.length) {slideIndex = 1}
+          x[slideIndex-1].style.display = "block";
+          setTimeout(carousel, 4000); // Change image every 4 seconds
+        }
   },
+
+  
 
 }
 </script>
@@ -177,8 +169,8 @@ export default {
   margin-top: 12rem;
 }
 
-.carousel-inner{
-  margin-top: 10rem;
+.carrousel{
+    margin-top: 10rem;
 }
 
 
