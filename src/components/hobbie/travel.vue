@@ -20,42 +20,37 @@
      <b-row>
           <b-col cols="12" sm="6">
           <h3>Brief</h3>
-          <p>{{info.brief}}</p>
+          <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p> 
        </b-col>
      </b-row>
 
 
-    <!-- <div class="carrousel">
-       <img src="../../assets/mmi-carrousel-1.jpg" style="width:100%" class="mySlides">
-        
-        <img src="../../assets/mmi-carrousel-2.jpg" style="width:100%" class="mySlides">
-        
-        <img src="../../assets/mmi-carrousel-3.jpg" style="width:100%" class="mySlides">
-
-        <img src="../../assets/mmi-carrousel-4.jpg" style="width:100%" class="mySlides">
-     </div> -->
-    
-    <div id="danse2">
-
-      <b-row class="my-5">
-        <b-col cols="12" sm="7">
-          <h3>Million Eyes</h3>
-          <img src="../../assets/danse3.jpg" alt="Project Same Through Years" class="img-fluid my-4">
-          <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p> 
-        </b-col>
-      </b-row>
-
-      <b-row class="my-5">
-        <b-col cols="12" sm="7">
-          <h3>DWP Paris - International Internship</h3>
-          <img src="../../assets/dwp-paris.jpg" alt="Project Clone Wars" class="img-fluid my-4">
-          <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
-        </b-col>
-      </b-row>
-           
+    <div style="height: 500px; width: 100%" class="my-5">
+    <div style="height: 200px overflow: auto;">
     </div>
+    <l-map
+      v-if="showMap"
+      :zoom="zoom"
+      :center="center"
+      :options="mapOptions"
+      @update:center="centerUpdate"
+      @update:zoom="zoomUpdate"
+    >
+      <l-tile-layer
+        :url="url"
+        :attribution="attribution"
+      />
+      <l-marker
+        v-for="country in countries"
+        :key="country.name"
+        :lat-lng="country"
+      >
+        <l-popup :content="country.name" />
+      </l-marker>
+    </l-map>
+  </div>
 
-   </b-container>
+</b-container>
 
    <footer class="text-center mt-5">
     <p><a href="#">Mentions légales</a> & <a href="#">Crédits</a>  | © 2020 cecile-gaultier.fr</p>
@@ -65,11 +60,43 @@
 </template>
 
 <script>
+import { latLng } from "leaflet";
+import { LMap, LTileLayer, LMarker, LPopup, LTooltip } from "vue2-leaflet";
+
 export default {
-  name: 'Danse',
+  name: 'Travel',
+  components: {
+    LMap,
+    LTileLayer,
+    LMarker,
+    LPopup,
+    LTooltip
+  },
   data () {
    return {
-      donnees :[]
+      donnees :[],
+      zoom: 2,
+      center: latLng(29.69, 11.95),
+      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      attribution:
+        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      withPopup: latLng(42.5503230086929, 12.513024789287384),
+      countries: [
+        { name: "München", lng: 10.542709119985323, lat:50.491905393028006 },
+        { name: "Roma", lng: 12.513024789287384, lat: 42.5503230086929 },
+        { name: "Sydney", lng: 151.09119053104038, lat: -31.61490660765052 },
+        { name: "Saint-Petersburg", lng: 30.422326325213316, lat: 60.52868532179961 }, 
+        { name: "London", lng: -0.19182604913962495 , lat: 52.07712615295344}, 
+        { name: "Dublin", lng: -6.271687842886099, lat: 53.57072536783069 }, 
+        { name: "New-York", lng: -75.20968428562654, lat: 42.87611719793301 }, 
+        { name: "Brusselles", lng: 4.386155889910565, lat: 50.97526320078684 }, 
+      ],
+      currentZoom: 11.5,
+      currentCenter: latLng(0, 0),
+      mapOptions: {
+        zoomSnap: 0.5
+      },
+      showMap: true
     }
   },
 
@@ -85,23 +112,21 @@ export default {
         //erreur requete
         console.log(error)
         });
-
-        
-        var slideIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          slideIndex++;
-          if (slideIndex > x.length) {slideIndex = 1}
-          x[slideIndex-1].style.display = "block";
-          setTimeout(carousel, 4000); // Change image every 4 seconds
-        }
   },
+
+  methods: {
+   zoomUpdate(zoom) {
+      this.currentZoom = zoom;
+    },
+    centerUpdate(center) {
+      this.currentCenter = center;
+    }
+ },
+
+
+ mounted() {
+   this.setupLeafletMap();
+ },
 
 }
 </script>
@@ -126,4 +151,8 @@ export default {
   margin-top: 8rem;
 }
 
+#mapContainer {
+ width: 80vw;
+ height: 100vh;
+}
 </style>
