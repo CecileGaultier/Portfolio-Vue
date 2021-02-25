@@ -142,11 +142,8 @@ export default {
   padding-left: .5rem;
   margin-bottom: 3rem;
   font-size: 2.5rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
-.carrousel{
-    margin-top: 10rem;
-}
 
 </style>

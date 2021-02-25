@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Sims 4"
+                },
+                {
+                    "id" :"2",
+                    "name":"Dishonored"
+                },
+                {
+                    "id" :"3",
+                    "name":"Bioshock"
+                },
+                {
+                    "id" :"4",
+                    "name":"Mass Effect"
+                }
+            ],
+        "brief": "I have played video games since I was a kid. I learned almost everything by myself because it was a good challenge for my personal skills. I don ’t play a lot of different games but I am very passionate about my favorite ones. My games are always in English because I watched a lot of interviews, sneak peek and early access in English.",
+        "reflection": [
+            {
+                "id":"1",
+                "text":"I am a big fan of the Sims 4. I use it to express my creativity through creations such as building or creating custom content."
+            },
+            {
+                "id":"2",
+                "text":"I use a software called Sims Studio in order to download textures from the game. Then I use Photoshop to customize the texture like I want. Then I update my game ’ s files to change the texture. I am currently working on custom content which changes the material and the texture."
+            }
+        ],
+        "reflection2": [
+            {
+                "id":"1",
+                "text":"In my last year in high school, we had to create a little game with the language Python. I worked with two other girls on “Escape Game ”. The player controls a student (top left image) and they have to escape high school with the exit door. But beware of the teachers ! I use a software called Sims Studio in order to download textures from the game. Then I use Photoshop to customize the texture like I want. Then I update my game’ s files to change the texture. I am currently working on custom content which changes the material and the texture."
+            },
+            {
+                "id":"2",
+                "text":"I worked on the algorithm which creates patterns for the teachers, on the map and on the textures. It was a little bit difficult to make the whole code useful and efficient. For example, there is no duplicated code, only loops. And variables."
+            },
+            {
+                "id":"3",
+                "text":"For the textures, I used the website Pixel to create pixel art. That is the reason why the quality is not great : the resolution was very low."
+            }
+        ]
+    }
+]

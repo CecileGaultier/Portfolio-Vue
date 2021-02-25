@@ -123,7 +123,7 @@
                   Video Games are a great tool for creativity and it combines all the other arts (music, video, storytelling …)
                 </p>
                 <div class="my-5">
-                  <router-link to="/coppola">
+                  <router-link to="/games">
                     <a href="#" class="btn2">Discover</a>
                   </router-link>
                 </div>

@@ -39,38 +39,23 @@
 
       <b-row class="my-5">
         <b-col cols="12" sm="7">
-          <h3>Same Through Years</h3>
-          <img src="../../assets/same.jpg" alt="Project Same Through Years" class="img-fluid my-4">
+          <h3>MMI - Sims 4</h3>
+          <img src="../../assets/sims2-2.jpg" alt="Project Same Through Years" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
+            <a href="https://www.youtube.com/channel/UCqUm2Ej_iWgJebyyGzKj7QA" class="btn2"><i class="fas fa-play"></i></a>
           </div>
         </b-col>
       </b-row>
 
       <b-row class="my-5">
         <b-col cols="12" sm="7">
-          <h3>Three Universes</h3>
-          <img src="../../assets/clones.jpg" alt="Project Clone Wars" class="img-fluid my-4">
+          <h3>Escape Games -Python</h3>
+          <img src="../../assets/escape-game.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
-          <div class="my-5">
-            <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
-            <a href="https://inktober.com/rules" class="btn2">Prompt List</a>
-          </div>
         </b-col>
       </b-row>
-
-      <b-row class="my-5">
-        <b-col cols="12" sm="7">
-          <h3>Snowy Dogs</h3>
-          <img src="../../assets/photo.jpg" alt="Project Snowy Dogs" class="img-fluid my-4">
-          <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
-          <div class="my-5">
-            <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
-          </div>
-        </b-col>
-      </b-row>
-      
            
     </div>
 
@@ -94,7 +79,7 @@ export default {
 
   created(){
         //lecture json directement avec Axios (json dans static)
-        axios.get('static/art.json')
+        axios.get('static/games.json')
         .then(function(response){
         //succès réponse
         console.log(response.data);
@@ -142,7 +127,7 @@ export default {
   padding-left: .5rem;
   margin-bottom: 3rem;
   font-size: 2.5rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .carrousel{
