@@ -9,6 +9,7 @@
              <p class="my-5">
                You will find down below my coordinates and you can download my resumes , certifications and attestations.
              </p>
+             <a href="mailto:gaulph@gmail.com" class="btn my-5">Send me an email now</a>
            </div>
          </b-col>
        </b-row>
@@ -186,6 +187,7 @@ export default {
   background-repeat: no-repeat;
   margin-left: .5rem;
   margin: 0;
+  background-position-y: center;
 }
 
 #links svg{
@@ -194,6 +196,7 @@ export default {
 
 .download{
   border: 2px solid #1f1f1f;
+  cursor:pointer;
 }
 
 .download p{

@@ -9,6 +9,7 @@
              <p>
                You can discover my best projects over all the years. If you want to learn more about one or see the whole project you can click on them. If you want a fully detailed list on all my projects, you can click on the link below.
              </p>
+             <div class="my-5"></div>
              <router-link to="/all">
                 <a href="#" class="btn my-5">Discover</a>
              </router-link>
@@ -189,7 +190,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/bureau-reve-3.jpg" alt="Mockup Perfect Room" class="img-fluid" style="max-width:250px">
+                 <img src="../assets/proom1.jpg" alt="Mockup Perfect Room" class="img-fluid" style="max-width:450px">
             </b-col>
           </b-row>
         </b-container>
