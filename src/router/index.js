@@ -13,6 +13,8 @@ import PRoom from '@/components/project/PRoom'
 import Fly from '@/components/project/Fly'
 
 import Hobbies from '@/components/Hobbies'
+import Movie from '@/components/hobbie/Movie'
+
 import Contact from '@/components/Contact'
 
 
@@ -36,6 +38,7 @@ export default new Router({
 
 
     { path: '/hobbies',     name: 'Hobbies',    component: Hobbies},
+    { path: '/movie',       name: 'Movie',      component: Movie},
 
 
     { path: '/contact',     name: 'Contact',    component: Contact},

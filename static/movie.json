@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Science-fiction"
+                },
+                {
+                    "id" :"2",
+                    "name":"Surnatural"
+                },
+                {
+                    "id" :"3",
+                    "name":"Dystopie"
+                },
+                {
+                    "id" :"4",
+                    "name":"Action"
+                }
+            ],
+        "brief": "We used Ionic 3 and Cordova to create an application for an android that will eventually be available on the android store. The goal was to upgrade the system of grades ’ display and to add some functionalities.",
+        "reflection": [
+            {
+                "id":"1",
+                "text":"I have created a short video on my favorite series with music from my favorite artist. I used After Eect to create various eect to amplify my messages. The video is focusing only on the Umbara Arc."
+            },
+            {
+                "id":"2",
+                "text":"I used blue, red and green for fear, death and enemies. "
+            },
+            {
+                "id":"3",
+                "text":"The main questions are about the duty of soldiers, the consequences of cloning human beings, critical opinions and fear of death."
+            }
+        ],
+        "reflection2": [
+            {
+                "id":"1",
+                "text":"The Inktober is a drawing challenge in October where everyday you have to draw based on a chosen word. You can see the official list."
+            },
+            {
+                "id":"2",
+                "text":"This challenge is an opportunity to experiment and to explore. I almost always choose movies ’ references or characters. Aliens or super beings are always inspiring because the lightning donc aect them like ordinary humans because of their skin, armor, power …"
+            }
+        ]
+    }
+]

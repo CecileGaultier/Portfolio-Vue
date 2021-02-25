@@ -65,7 +65,7 @@
                   Movies are one of my main passions. They allowed the viewers to discover a new universe and still, they ask questions about our society nowadays.
                 </p>
                 <div class="my-5">
-                  <router-link to="/coppola">
+                  <router-link to="/movie">
                     <a href="#" class="btn2">Discover</a>
                   </router-link>
                 </div>
