@@ -94,7 +94,7 @@
                   I have been drawing since I learned to hold a pen. I never took drawing classes and I have learned all by myself and by practicing through challenges, contests and exercises.
                 </p>
                 <div class="my-5">
-                  <router-link to="/coppola">
+                  <router-link to="/art">
                     <a href="#" class="btn2">Discover</a>
                   </router-link>
                 </div>
