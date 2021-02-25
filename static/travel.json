@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Australia"
+                },
+                {
+                    "id" :"2",
+                    "name":"Belgium"
+                },
+                {
+                    "id" :"3",
+                    "name":"Deutschland"
+                },
+                {
+                    "id" :"4",
+                    "name":"England"
+                },
+                {
+                    "id" :"5",
+                    "name":"Ireland"
+                },
+                {
+                    "id" :"6",
+                    "name":"Italia"
+                },
+                {
+                    "id" :"7",
+                    "name":"Russia"
+                },
+                {
+                    "id" :"8",
+                    "name":"Switerzland"
+                },
+                {
+                    "id" :"9",
+                    "name":"USA"
+                }
+            ],
+        "brief": "When I started dancing, I was afraid of what people might think of me. I thought it was scary to show emotions before unknown people. Dancing made me more confident about myself and my skills. My dance teacher always encouraged us to surpass ourselves and to always try. ",
+        "reflection": [
+            {
+                "id":"1",
+                "text":"In 2018, my dance teacher asked me to improvise a dance for 3 minutes before 900 people during the annual dance show. I wasn ’t scared because this dance was really important for me. It was about bullying and violence to one isolated person. "
+            },
+            {
+                "id":"2",
+                "text":"This moment made me realize what I was capable of. I am always self-doubting my skills but this dance made me more self-confident about my emotions."
+            }
+        ]
+    }
+]

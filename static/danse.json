@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "cat":[
+                {
+                    "id" :"1",
+                    "name":"Modern"
+                },
+                {
+                    "id" :"2",
+                    "name":"Jazz"
+                }
+            ],
+        "brief": "When I started dancing, I was afraid of what people might think of me. I thought it was scary to show emotions before unknown people. Dancing made me more confident about myself and my skills. My dance teacher always encouraged us to surpass ourselves and to always try. ",
+        "reflection": [
+            {
+                "id":"1",
+                "text":"In 2018, my dance teacher asked me to improvise a dance for 3 minutes before 900 people during the annual dance show. I wasn ’t scared because this dance was really important for me. It was about bullying and violence to one isolated person. "
+            },
+            {
+                "id":"2",
+                "text":"This moment made me realize what I was capable of. I am always self-doubting my skills but this dance made me more self-confident about my emotions."
+            }
+        ],
+        "reflection2": [
+            {
+                "id":"1",
+                "text":"In 2016, I went with my dance teacher and other dance friend one week in Paris for an international dance internship. They were dancers from all around the world (teachers and students)."
+            },
+            {
+                "id":"2",
+                "text":"It was really hard and very exhausting. We had very amount of time to learn and to adapt. But this opportunity was amazing. I discovered very different style and ways to see dancing. Every teacher and student was unique. I had the chance to talk with German, American, Italian, Chinese … dancers."
+            }
+        ]
+    }
+]

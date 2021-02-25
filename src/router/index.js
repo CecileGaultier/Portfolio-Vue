@@ -16,7 +16,8 @@ import Hobbies from '@/components/Hobbies'
 import Movie from '@/components/hobbie/Movie'
 import Art from '@/components/hobbie/Art'
 import Games from '@/components/hobbie/Games'
-
+import Danse from '@/components/hobbie/Danse'
+import Travel from '@/components/hobbie/Travel'
 
 import Contact from '@/components/Contact'
 
@@ -44,7 +45,8 @@ export default new Router({
     { path: '/movie',       name: 'Movie',      component: Movie},
     { path: '/art',         name: 'Art',        component: Art},
     { path: '/games',       name: 'Games',      component: Games},
-
+    { path: '/danse',       name: 'Danse',      component: Danse},
+    { path: '/travel',      name: 'Travel',     component: Travel},
 
     { path: '/contact',     name: 'Contact',    component: Contact},
 

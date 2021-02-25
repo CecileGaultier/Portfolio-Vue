@@ -152,7 +152,7 @@
                   I have danced for eight years. It taught me to surpass myself and to be more self-confident. Dancing allows me to express my sensibility.
                 </p>
                 <div class="my-5">
-                  <router-link to="/coppola">
+                  <router-link to="/danse">
                     <a href="#" class="btn2">Discover</a>
                   </router-link>
                 </div>
@@ -181,7 +181,7 @@
                   I have always traveled with my family or school. There were great opportunities to think differently and to understand more various cultures.
                 </p>
                 <div class="my-5">
-                  <router-link to="/coppola">
+                  <router-link to="/travel">
                     <a href="#" class="btn2">Discover</a>
                   </router-link>
                 </div>
