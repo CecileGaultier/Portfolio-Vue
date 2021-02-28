@@ -105,8 +105,16 @@
               </b-col>
             </b-row>
           </div>
+
+           <div class="my-5">
+            <router-link to="/mminotes">
+              <h3 class="next">Projet suivant : MMI Notes <i class="far fa-play-circle ml-2"></i></h3>
+            </router-link>
+          </div>
         
       </div>
+
+      
      
    </b-container>
 

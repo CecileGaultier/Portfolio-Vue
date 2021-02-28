@@ -94,20 +94,25 @@
         <h3>Ressources</h3>
         <b-row >
           <b-col cols="12" sm="6">
-            <img src="../../assets/cake.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:400px">
+            <img src="../../assets/cake.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/clavier.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:400px">
+            <img src="../../assets/clavier.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/canape.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:400px">
+            <img src="../../assets/canape.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
           </b-col>
           <b-col cols="12" sm="6">
-            <img src="../../assets/arcade.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:400px">
+            <img src="../../assets/arcade.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
           </b-col>
         </b-row>
       </div>
-           
+      
+      <div class="my-5">
+        <router-link to="/fly">
+          <h3 class="next">Projet suivant : Fly New <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
     </div>
 
    </b-container>

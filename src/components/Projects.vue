@@ -190,7 +190,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/proom1.jpg" alt="Mockup Perfect Room" class="img-fluid" style="max-width:450px">
+                 <img src="../assets/proom1.jpg" alt="Mockup Perfect Room" class="img-fluid desk">
             </b-col>
           </b-row>
         </b-container>
@@ -279,6 +279,15 @@ export default {
   background-position-y: center;
 }
 
+.desk{
+    max-width: 450px;
+  }
 
+
+@media only screen and (max-width:536px){
+  .desk{
+    max-width: 300px;
+  }
+}
 
 </style>

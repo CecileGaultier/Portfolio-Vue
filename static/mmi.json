@@ -19,8 +19,8 @@
                     "name":"Mobile"
                 }
             ],
-        "year": "2021 - In progress",
-        "client":"DUT MMI",
+        "year": "2021 - In progress (started in january)",
+        "client":"DUT MMI - Web developement",
         "brief": "We used Ionic 3 and Cordova to create an application for an android that will eventually be available on the android store. The goal was to upgrade the system of grades ’ display and to add some functionalities.",
         "ls" :[
             {

@@ -80,7 +80,12 @@
           </b-col>
         </b-row>
       </div>
-           
+      
+      <div class="my-5">
+        <router-link to="/proom">
+          <h3 class="next">Projet suivant : Perfect Room <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
     </div>
 
    </b-container>

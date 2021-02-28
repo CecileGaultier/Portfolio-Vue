@@ -136,6 +136,14 @@ a.btn2:hover{
   color: white;
 }
 
+
+.next{
+  color: white;
+  background-color:rgba(34, 32, 31, .85);
+  padding: 1rem;
+}
+
+
 .case{
   margin-bottom: 15rem;
   margin-top: 10rem;

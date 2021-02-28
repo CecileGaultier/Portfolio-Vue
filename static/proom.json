@@ -15,8 +15,8 @@
                     "name":"Scholar"
                 }
             ],
-        "year": "2021 - In progress",
-        "client":"DUT MMI",
+        "year": "2021 - In progress (started in january)",
+        "client":"DUT MMI - Web developement and numeric project",
         "brief": "We are currently using 3Ds Max to create our perfect room / work space. Then, we will use the library Three.JS. The viewers can move inside the room and interact with different objects. They have to find a secret password and a secret vault. If they have the right combination they can access the vault’ s treasure.",
         "ls" :[
             {

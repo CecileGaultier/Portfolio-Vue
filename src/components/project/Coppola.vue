@@ -93,6 +93,12 @@
           </b-col>
         </b-row>
       </div>
+
+       <div class="my-5">
+        <router-link to="/incamp">
+          <h3 class="next">Projet suivant : Incamp <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
            
     </div>
 
@@ -161,6 +167,7 @@ export default {
   background-position-y: bottom;
 }
 
+
 #coppola2 h3{
   border-left: #af1f28 3px solid;
   padding-left: .5rem;
@@ -171,6 +178,10 @@ export default {
 
 .carrousel{
     margin-top: 10rem;
+}
+
+i{
+  padding-top: 0;
 }
 
 

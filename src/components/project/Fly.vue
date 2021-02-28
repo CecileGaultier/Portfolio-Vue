@@ -44,10 +44,10 @@
 
     <b-row class="my-5">
        <b-col cols="12" sm="6">
-          <img src="../../assets/fly-new2.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:400px">
+          <img src="../../assets/fly-new2.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
         </b-col>
         <b-col cols="12" sm="6">
-          <img src="../../assets/fly-new3.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:400px">
+          <img src="../../assets/fly-new3.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
         </b-col>
      </b-row>
       
