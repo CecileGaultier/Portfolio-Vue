@@ -1,0 +1,310 @@
+[
+    {
+        "id": "1",
+        "about" :[
+            {
+                "id" : "1",
+                "title" : "Quick presentation",
+                "presentation" : [
+                    {
+                        "id": "1",
+                        "text" : "My name is Cecile Gaultier and I am 19. I am currently a student in MMI Montbéliard (Métiers du Multimédia et de l’Internet)."
+                    },
+
+                    {
+                        "id": "2",
+                        "text" : "Since I was a kid, I always loved to play with images and visuals. But when I grew up, the artististic part wasn’t enough. I wanted to use images with a concrete meaning : explain difficult subjects, play with culture, use them for story-telling ..."
+                    },
+                    {
+                        "id": "3",
+                        "text" : "Being creative and conscious is extremely important for me. That is why I choose the DUT MMI. Through different projects, I have learned to think about the communication, the design, the development and the meaning of each product."
+                    },
+                    {
+                        "id": "4",
+                        "text" : "Even though I am always self-doubting, it has been an asset when I was project manager  during various group works."
+                    }
+                ]
+                
+            }
+        ],
+        "now": [
+            {
+                "id" : "2",
+                    "title" : "Now",
+                    "presentation" : [
+                        {
+                            "id": "1",
+                            "text" : "I don’t consider myself as a developer or a designer. At first, it was a struggle because I couldn’t choose. Now, I see it as a balance. I want to keep this polyvalence and work as a creative developer."
+                        },
+    
+                        {
+                            "id": "2",
+                            "text" : "You need to contact me ? Find all my coordinates, resumes and certifications down here :"
+                        }
+                    ]
+            }
+        ],
+        "skill": [
+            {
+                "id" : "3",
+                "title" : "My skills",
+                "presentation" : [
+                    {
+                        "id": "1",
+                        "title": "Developpement",
+                        "icon":"fas fa-laptop-code mr-3",
+                        "notion" : [
+                            {
+                                "id": "1",
+                                "text" : "- Website static with librairies"
+                            },
+        
+                            {
+                                "id": "2",
+                                "text" : "- Website dynamic"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "- Responsive website"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "- Application for Android"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "- Data Representation"
+                            },
+                            {
+                                "id": "6",
+                                "text" : "- Headless Back-end"
+                            },
+                            {
+                                "id": "7",
+                                "text" : "- Utilisation of Open Data"
+                            }
+                        ],
+                        "tool" : [
+                            {
+                                "id": "1",
+                                "text" : "HTML"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "CSS"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "JS"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "Wordpress"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "Bootstrap"
+                            },
+                            {
+                                "id": "6",
+                                "text" : "Vue.js"
+                            },
+                            {
+                                "id": "7",
+                                "text" : "Ionic "
+                            },
+                            {
+                                "id": "8",
+                                "text" : "3Ds Max"
+                            },
+                            {
+                                "id": "9",
+                                "text" : "Three.JS"
+                            },
+                            {
+                                "id": "10",
+                                "text" : "Google Data Studio "
+                            },
+                            {
+                                "id": "11",
+                                "text" : "Firebase"
+                            },
+                            {
+                                "id": "12",
+                                "text" : "Postman"
+                            }
+                        ]
+                    },
+
+                    {
+                        "id": "2",
+                        "title": "Design",
+                        "icon":"fas fa-palette mr-3",
+                        "notion" : [
+                            {
+                                "id": "1",
+                                "text" : "- Visual identity (logo, color, typo …)"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "- Mock-up (mobile, desktop, responsive ...)"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "- Visual (leaflet, print, social media …)"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "- UX / UI"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "- Accessibility"
+                            },
+                            {
+                                "id": "6",
+                                "text" : "- Illustrations (digital, animated ...)"
+                            },
+                            {
+                                "id": "7",
+                                "text" : "- Data Representation"
+                            }
+                        ],
+                        "tool" : [
+                            {
+                                "id": "1",
+                                "text" : "Adobe XD"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "Indesign"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "Illustrator"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "Photoshop"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "Canva"
+                            }
+                        ]                    
+                    },
+                    {
+                        "id": "3",
+                        "title": "Communication",
+                        "icon":"fas fa-bullhorn mr-3",
+                        "notion" : [
+                            {
+                                "id": "1",
+                                "text" : "- Presentation and speech's rules"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "- Web redaction"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "- SEM, SEO, SEA, SMO"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "- Targetting and competitive analysis"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "- Competitive intelligence"
+                            },
+                            {
+                                "id": "6",
+                                "text" : "- Community management"
+                            },
+                            {
+                                "id": "7",
+                                "text" : "- RGPD"
+                            }
+                        ],
+                        "tool" : [
+                            {
+                                "id": "1",
+                                "text" : "Google Analytics"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "Google Adsense"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "Yoast"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "Hootsuite"
+                            }
+                        ]                                     
+                    },
+                    {
+                        "id": "4",
+                        "title": "Audiovisual",
+                        "icon":"fas fa-microphone mr-3",
+                        "notion" : [
+                            {
+                                "id": "1",
+                                "text" : "- Short movie making"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "- Interview"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "- Sound recording and cleaning"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "- Animation (Motion Design)"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "- Editing"
+                            },
+                            {
+                                "id": "6",
+                                "text" : "- Script"
+                            },
+                            {
+                                "id": "7",
+                                "text" : "- Story-boarding"
+                            }
+                        ],
+                        "tool" : [
+                            {
+                                "id": "1",
+                                "text" : "Adobe Premiere"
+                            },
+                            {
+                                "id": "2",
+                                "text" : "Audition"
+                            },
+                            {
+                                "id": "3",
+                                "text" : "After Effect"
+                            },
+                            {
+                                "id": "4",
+                                "text" : "Illustrator"
+                            },
+                            {
+                                "id": "5",
+                                "text" : "Story-board"
+                            }
+                        ]                                     
+                    }
+                ]
+            }
+        ]
+    }
+]

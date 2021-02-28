@@ -77,7 +77,7 @@ export default {
       donnees :[],
       zoom: 2,
       center: latLng(29.69, 11.95),
-      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       withPopup: latLng(42.5503230086929, 12.513024789287384),

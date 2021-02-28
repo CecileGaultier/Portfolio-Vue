@@ -9,9 +9,9 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class=" ml-auto">
             <router-link to="/" class="nav-link">Home</router-link>
-            <router-link to="/about" class="nav-link">About</router-link>
             <router-link to="/projects" class="nav-link">Projects</router-link>
             <router-link to="/hobbies" class="nav-link">Hobbies</router-link>
+            <router-link to="/about" class="nav-link">About</router-link>
             <router-link to="/contact" class="nav-link contact">Contact</router-link>
           </b-navbar-nav>
 
@@ -128,6 +128,7 @@ a.btn2:hover{
 
 .contact{
   border: 1px grey solid;
+  padding: .5rem;
 }
 
 .intro{
