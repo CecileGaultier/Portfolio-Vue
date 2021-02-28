@@ -52,7 +52,13 @@
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
         </b-col>
       </b-row>
-           
+      
+      <div class="my-5">
+        <router-link to="/travel">
+          <h3 class="next">Suivant : Travel <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
+
     </div>
 
    </b-container>

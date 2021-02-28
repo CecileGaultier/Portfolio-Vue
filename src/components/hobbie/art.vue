@@ -71,6 +71,11 @@
         </b-col>
       </b-row>
       
+      <div class="my-5">
+        <router-link to="/games">
+          <h3 class="next">Suivant : Video Games <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
            
     </div>
 

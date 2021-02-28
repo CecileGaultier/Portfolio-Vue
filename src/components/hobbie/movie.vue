@@ -61,6 +61,11 @@
         </b-col>
       </b-row>
       
+      <div class="my-5">
+        <router-link to="/art">
+          <h3 class="next">Suivant : Art <i class="far fa-play-circle ml-2"></i></h3>
+        </router-link>
+      </div>
            
     </div>
 
