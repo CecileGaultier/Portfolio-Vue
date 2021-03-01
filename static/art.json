@@ -19,29 +19,30 @@
                     "name":"Digital"
                 }
             ],
-        "brief": "We used Ionic 3 and Cordova to create an application for an android that will eventually be available on the android store. The goal was to upgrade the system of grades ’ display and to add some functionalities.",
         "reflection": [
             {
                 "id":"1",
-                "text":"I have created a short video on my favorite series with music from my favorite artist. I used After Eect to create various eect to amplify my messages. The video is focusing only on the Umbara Arc."
+                "text":"When I got my numeric tablet for digital drawings, it was so different to “traditional” drawing that it felt like I didn't know how to draw anymore."
             },
             {
                 "id":"2",
-                "text":"I used blue, red and green for fear, death and enemies. "
+                "text":"So I had various exercises to progress and try new techniques, tools, softwares … I drew this same digital drawing for four years. The first one was in 2018 with Clip Studio Paint, the second one in 2017 with Paint Tool Sai and the third one in 2016 with Paint Tool Sai (first time using it)."
             },
             {
                 "id":"3",
-                "text":"The main questions are about the duty of soldiers, the consequences of cloning human beings, critical opinions and fear of death."
+                "text":"I was inspired by the artist Yuumei (Fisheye Placebo)."
             }
         ],
         "reflection2": [
             {
                 "id":"1",
-                "text":"The Inktober is a drawing challenge in October where everyday you have to draw based on a chosen word. You can see the official list."
-            },
+                "text":"These are my first attempts to paint with watercolor. I hate to draw nature but I find it perfect for watercolor. I tried to paint three different places which are so different they become different universes. I tried my best to paint them a little bit unrealistic and closer to the dream vibe. I was inspired by the artist makoccino."
+            }
+        ],
+        "reflection3": [
             {
-                "id":"2",
-                "text":"This challenge is an opportunity to experiment and to explore. I almost always choose movies ’ references or characters. Aliens or super beings are always inspiring because the lightning donc aect them like ordinary humans because of their skin, armor, power …"
+                "id":"1",
+                "text":"I don’t draw or paint animals / pets because they are very difficult as subjects. I believe it is worse for photography because it captures the moment and animals are always moving. So I tried my best to photograph animals with poses / expressions which pictured them the best."
             }
         ]
     }

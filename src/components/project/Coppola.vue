@@ -76,21 +76,23 @@
       <div class="my-5">
         <h3>Ressources</h3>
         <b-row >
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/Bio-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>This illustration was used for the biography page. I played with the common idea that biographies are books, which is not totally true with the Internet. On this page, viewers can learn about Francis Ford Coppola’s life but mainly what is his style when making movies. The design of the website and Coppola’s style are directly linked.</p>
           </b-col>
-          <b-col cols="12" sm="6">
-            <img src="../../assets/Ajout-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+          <b-col cols="12" sm="6" class="my-5">
+            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:270px">
+            <p>Francis Ford Coppola and his family (daughter Sofia Coppola and nephew Nicolas Cage) are very well-known. They have won many prizes / awards through movies. </p>
           </b-col>
-          <b-col cols="12" sm="6">
-            <img src="../../assets/Camera-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
-          </b-col>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/upload-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>One of the necessary pages was the upload page. Users can add films into the database (title, year, image of the movie and description). We only had less than 12h to make the integration, so we only needed to create the request.</p>
           </b-col>
-          <b-col cols="12" sm="6">
-            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+          <b-col cols="12" sm="6" class="my-5">
+            <img src="../../assets/Camera-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:250px">
+            <p>For the filmography page, I used a typical camera to represent film making. I kept the presentation of his movie identical because of the coherence and because of Vue.js (import data via flux.json and v-model).</p>
           </b-col>
+          
         </b-row>
       </div>
 
@@ -135,21 +137,6 @@ export default {
         console.log(error)
         });
 
-
-        var slideIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          slideIndex++;
-          if (slideIndex > x.length) {slideIndex = 1}
-          x[slideIndex-1].style.display = "block";
-          setTimeout(carousel, 4000); // Change image every 4 seconds
-        }
   },
 
   
@@ -176,10 +163,6 @@ export default {
   margin-bottom: 3rem;
   font-size: 2.5rem;
   margin-top: 12rem;
-}
-
-.carrousel{
-    margin-top: 10rem;
 }
 
 i{

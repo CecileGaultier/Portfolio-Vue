@@ -132,9 +132,5 @@ export default {
   margin-top: 12rem;
 }
 
-.carousel-inner{
-  margin-top: 10rem;
-}
-
 
 </style>

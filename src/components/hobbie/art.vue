@@ -17,13 +17,6 @@
      </b-container>
    </div>
    <b-container v-for="info in donnees" :key="info.id" class="my-5">
-     <b-row>
-          <b-col cols="12" sm="6">
-          <h3>Brief</h3>
-          <p>{{info.brief}}</p>
-       </b-col>
-     </b-row>
-
 
     <!-- <div class="carrousel">
        <img src="../../assets/mmi-carrousel-1.jpg" style="width:100%" class="mySlides">
@@ -51,12 +44,8 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7">
           <h3>Three Universes</h3>
-          <img src="../../assets/clones.jpg" alt="Project Clone Wars" class="img-fluid my-4">
+          <img src="../../assets/drawing.jpg" alt="Project Three Universes" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
-          <div class="my-5">
-            <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
-            <a href="https://inktober.com/rules" class="btn2">Prompt List</a>
-          </div>
         </b-col>
       </b-row>
 
@@ -64,7 +53,7 @@
         <b-col cols="12" sm="7">
           <h3>Snowy Dogs</h3>
           <img src="../../assets/photo.jpg" alt="Project Snowy Dogs" class="img-fluid my-4">
-          <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
+          <p v-for="ref in info.reflection3" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
           </div>
@@ -86,6 +75,7 @@
         <p>Terms & Conditions & Policy & Credit  | © 2021 cecile-gaultier.fr</p>
       </router-link>
     </footer>
+    
 
  </div>
 </template>

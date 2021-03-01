@@ -44,41 +44,8 @@
         <p v-for="ls in info.ls" :key="ls.id" class="cat">{{ls.name}}</p>
      </b-row>
 
-      <b-col cols="12">
-        <div class="carousel" data-ride="carousel" id="monCarousel" data-interval="1500">
-            <ol class="carousel-indicators">
-                <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#monCarousel" data-slide-to="1" class=""></li>
-                <li data-target="#monCarousel" data-slide-to="2" class=""></li>
-                <li data-target="#monCarousel" data-slide-to="3" class=""></li>
-            </ol>
-            
-            <div class="carousel-inner">  
-                <div class="carousel-item active">
-                    <img src="../../assets/proom-1.jpg" class="d-block w-100">         
-                </div>
-                <div class="carousel-item ">
-                    <img src="../../assets/proom-2.jpg" class="d-block w-100">
-                </div>
-                <div class="carousel-item ">
-                    <img src="../../assets/proom-3.jpg" class="d-block w-100">
-                </div>
-               <div class="carousel-item ">
-                    <img src="../../assets/proom-4.jpg" class="d-block w-100">
-                </div>
-            </div>
-
-            <a href="#monCarousel"
-                class="carousel-control-prev"
-                data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a href="#monCarousel"
-                class="carousel-control-next"
-                data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
+      <b-col cols="12" class="my-5">
+        <img src="../../assets/proom-1.jpg" class="d-block w-100">         
       </b-col>       
     
     <div id="proom2">
@@ -93,17 +60,21 @@
       <div class="my-5">
         <h3>Ressources</h3>
         <b-row >
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/cake.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
+            <p>The goal of the game is to find a secret code behind a canva. On the canva, there is the cake from Portal (video-games from Valve). This cake is very famous because it is known as “The cake is a lie”. It is a reference to Portal’s main character who was promised a cake but never had until the end of Portal 2. It means that the canva is a fake and hides the secret vault. But when we opened it, we found the real cake like the main character in Portal 2.</p>
           </b-col>
-          <b-col cols="12" sm="6">
-            <img src="../../assets/clavier.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
-          </b-col>
-          <b-col cols="12" sm="6">
-            <img src="../../assets/canape.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
-          </b-col>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/arcade.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
+            <p>One of the keys to finding the real secret code is to click on the arade. At first, it shows a game over screen with “Click on the button A to continue”. If the player clicks on the button A, it shows a screen with a high score. The high score is the code to open the vault.</p>
+          </b-col>
+          <b-col cols="12" sm="6" class="my-5">
+            <img src="../../assets/clavier.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
+            <p>Every perfect room needs a computer with two screens and a keyboard. How else are we gonna play all night ?</p>
+          </b-col>
+          <b-col cols="12" sm="6" class="my-5">
+            <img src="../../assets/canape.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
+            <p>This is just a regular coach … Or is it ?</p>
           </b-col>
         </b-row>
       </div>
@@ -170,10 +141,6 @@ export default {
   margin-bottom: 3rem;
   font-size: 2.5rem;
   margin-top: 12rem;
-}
-
-.carousel-inner{
-  margin-top: 10rem;
 }
 
 

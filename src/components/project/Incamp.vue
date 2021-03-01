@@ -20,7 +20,8 @@
      <b-row>
        <b-col cols="12" sm="3" class="presentation">
          <h2>Client</h2>
-          <p>{{info.client}}</p>
+          <p class="mb-5">{{info.client}}</p>
+          <a href="https://incamp.agglo-montbeliard.fr/" class="btn2 my-5">Link to Incamp</a>
        </b-col>
 
        <b-col cols="12" sm="3" class="presentation">
@@ -31,7 +32,8 @@
         <b-col cols="12" sm="6">
           <h3>Brief</h3>
           <p>{{info.brief}}</p>
-          <p>Made with <a href="http://ambregeiss.fr/">Ambre Geiss</a> and <a href="http://manonjeanpierre.fr/">Manon Jeanpierre</a></p>
+          <p>I was the project manager and the developer. I had to look very carefully at the safety of the project, date-lines, establish contact with the client during and after the project.</p>
+          <p>Made with <a href="http://ambregeiss.fr/">Ambre Geiss</a> (Communication) and <a href="http://manonjeanpierre.fr/">Manon Jeanpierre</a> (Design).</p>
        </b-col>
      </b-row>
 
@@ -79,29 +81,29 @@
           <div class="my-5">
             <h3>Ressources</h3>
             <b-row >
-              <b-col cols="12" sm="6">
-                <img src="../../assets/label-tepcv.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/logo-accueil.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:500px">
+                <p>Manon Jeanpierre created our logo. The circles represent different departments from our university. It symbolizes their unity. The leaf in the middle means that sustainable development is in the center of the university’s goal.</p>
               </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/logo-footer.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/watering_plant.svg" alt="Ressources" class="img-fluid my-4" style="max-width:230px">
+                <p>We used illustrations from a free rights library to create harmony and to break the text intensity. Manon Jeanpierre modified them with our colors.</p>
               </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/logo-accueil.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/incamp-rsn.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:500px">
+                <p>We create two accounts for Incamp : one on Instagram, the other on Facebook. We used our logo, colors and photos to create unique content. We have quality subscribers like the town of Montbéliard or green associations.</p>
               </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/logo-sans-texte.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:100px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/incamp-mockup.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:550px">
+                <p>We had to build a complete communication strategy (targeting, competitive analysis, competitive intelligence, mix-marketing ...). We also created visuals for leaflet, print and social posts.</p>
               </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/question.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/incamp-wp.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:500px">
+                <p>As the developer on the team, I build the Wordpress theme from our mock-ups. Wordpress was the best solution for our client because they have no knowledge about websites or web articles. So I choose various plugins to make it more user-friendly like Yoast. I also included Goggle service like Analytics and a newsletter (Sendinblue) to analyse users ‘s behaviour (UX and UI). </p>
               </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/recycling.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
-              </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/people.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
-              </b-col>
-              <b-col cols="12" sm="6">
-                <img src="../../assets/watering_plant.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+              <b-col cols="12" sm="6" class="my-5">
+                <img src="../../assets/incamp-wp2.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:500px">
+                <p>Our client wanted to be able to create quizzes easily. I chose the plugin Quiz and Survey Master and created templates to make it easier. The admins have all the results in a special email address. As the project manager of Incamp, I also created a few videos for our clients. They explain and detail the main tasks.</p>
               </b-col>
             </b-row>
           </div>
@@ -148,21 +150,6 @@ export default {
         //erreur requete
         console.log(error)
         });
-
-        var slideIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          slideIndex++;
-          if (slideIndex > x.length) {slideIndex = 1}
-          x[slideIndex-1].style.display = "block";
-          setTimeout(carousel, 4000); // Change image every 4 seconds
-        }
   },
 
 }
@@ -185,11 +172,10 @@ export default {
   padding-left: .5rem;
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  margin-top: 12rem;
+  margin-top: 7rem;
 }
 
-.carrousel{
-    margin-top: 10rem;
-}
+
+
 
 </style>

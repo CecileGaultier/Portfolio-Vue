@@ -190,6 +190,10 @@ footer{
   padding-top: 3rem; 
 }
 
+footer p{
+  padding: 1rem;
+}
+
 footer a{
   color: white;
 }

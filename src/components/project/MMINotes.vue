@@ -31,7 +31,7 @@
         <b-col cols="12" sm="6">
           <h3>Brief</h3>
           <p>{{info.brief}}</p>
-          <p>Made with <a href="http://timotheedurand.fr/">Timothée Durand</a></p>
+          <p>Made with <a href="http://timotheedurand.fr/">Timothée Durand</a>.</p>
        </b-col>
      </b-row>
 
@@ -66,17 +66,21 @@
       <div class="my-5">
         <h3>Ressources</h3>
         <b-row >
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-synch.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>This illustration is on the welcoming page. We explain the various functionalities like the possibility to download marks in pdf, to know precisely if the student can pass, to allow the student to evaluate himself with the lowest and higher grades and to hear motivational speech from the phone.</p>
           </b-col>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-phone.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>We use Ionic and Cordova to create the main content for Android. But we also add some other functionalities like the PDF Reader, the Text to Speech and I18n. The data are stoked on Airtable and we use JSON to get them.</p>
           </b-col>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-welcome.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>Students connect to their account with their student number (given by the university). They can access their grades, their GPA … Unfortunately, some functionalities work only on Android and virtual devices can’t use them. It limits the use of the app.</p>
           </b-col>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-connexion.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
+            <p>Timothée Durand worked on the PDF Reader and the Text to Speech because the AVD couldn’t support it. He also works on the connexion and the creation of special components (back-end). I work on I18n, the front-end, the illustration and the student’s profile (photo, grades …).</p>
           </b-col>
         </b-row>
       </div>
@@ -120,22 +124,6 @@ export default {
         //erreur requete
         console.log(error)
         });
-
-        
-        var slideIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          slideIndex++;
-          if (slideIndex > x.length) {slideIndex = 1}
-          x[slideIndex-1].style.display = "block";
-          setTimeout(carousel, 4000); // Change image every 4 seconds
-        }
   },
 
 }
@@ -159,10 +147,6 @@ export default {
   margin-bottom: 3rem;
   font-size: 2.5rem;
   margin-top: 12rem;
-}
-
-.carrousel{
-    margin-top: 10rem;
 }
 
 </style>
