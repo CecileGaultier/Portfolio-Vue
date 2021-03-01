@@ -2,13 +2,18 @@
   <div id="app">
     <div>
       <b-navbar toggleable="md" type="dark" >
-        <b-navbar-brand href="#">CG</b-navbar-brand>
+        <b-navbar-brand href="#">
+          <router-link to="/">
+            <img src="./assets/logo2.svg" alt="Logo" class="navbar-brand" style="width: 30px;"> 
+          </router-link>
+        </b-navbar-brand>
+
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class=" ml-auto">
-            <router-link to="/" class="nav-link">Home</router-link>
+            <!-- <router-link to="/" class="nav-link">Home</router-link> -->
             <router-link to="/projects" class="nav-link">Projects</router-link>
             <router-link to="/hobbies" class="nav-link">Hobbies</router-link>
             <router-link to="/about" class="nav-link">About</router-link>
@@ -19,6 +24,8 @@
         </b-collapse>
 
       </b-navbar>
+
+
     </div>
     
     <router-view/>
@@ -190,5 +197,11 @@ footer a{
 
 footer a:hover{
   color: #ffa4ab;
+}
+
+@media only screen and (max-width:536px){
+  .navbar-nav .nav-link{
+    padding-left: .5rem;
+  }
 }
 </style>

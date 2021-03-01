@@ -18,9 +18,11 @@
       </div>
    </div>
 
-   <footer class="text-center mt-5">
-    <p><a href="#">Mentions légales</a> & <a href="#">Crédits</a>  | © 2020 cecile-gaultier.fr</p>
-  </footer>
+   <footer class="text-center">
+      <router-link to="/terms">
+        <p>Terms & Conditions & Policy & Credit  | © 2021 cecile-gaultier.fr</p>
+      </router-link>
+    </footer>
 
  </div>
 </template>

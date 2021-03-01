@@ -21,6 +21,9 @@ import Travel from '@/components/hobbie/Travel'
 
 import Contact from '@/components/Contact'
 
+import Terms from '@/components/Terms'
+
+
 
 Vue.use(Router)
 
@@ -49,6 +52,8 @@ export default new Router({
     { path: '/travel',      name: 'Travel',     component: Travel},
 
     { path: '/contact',     name: 'Contact',    component: Contact},
+
+    { path: '/terms',       name: 'Terms',      component: Terms}
 
   ]
 })
