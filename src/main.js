@@ -32,12 +32,17 @@ import { Icon } from 'leaflet';
 import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 import 'leaflet/dist/leaflet.css';
 
+//Import threejs
+// import VueThreejs from 'vue-threejs'
+
+
 Vue.use(VueAxios, axios)
 
 Vue.use(VueI18n)
 
 Vue.use(Vuejquery)
 
+// Vue.use(VueThreejs)
 
 // Utilisation de Bootstrap-vue
 Vue.use(Popper);

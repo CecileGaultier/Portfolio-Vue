@@ -13,9 +13,6 @@
                My hobbies are really important for me because I can explore and learn different subjects. They are often my inspiration for my work.
              </p>
              <div class="my-5"></div>
-             <router-link to="/all">
-                <a href="#" class="btn my-5">Discover</a>
-             </router-link>
            </div>
          </b-col>
        </b-row>

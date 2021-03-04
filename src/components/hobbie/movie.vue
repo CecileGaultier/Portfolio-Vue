@@ -35,8 +35,7 @@
           <img src="../../assets/clones.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
-            <a href="#" class="btn2">Story-Board</a>
-            <a href="#" class="btn2"><i class="fas fa-play"></i></a>
+            <a href="https://youtu.be/FDlx85JPkRU" class="btn2"><i class="fas fa-play"></i></a>
           </div>
         </b-col>
       </b-row>
