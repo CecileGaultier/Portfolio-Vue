@@ -21,6 +21,7 @@
        <b-col cols="12" sm="3" class="presentation">
          <h2>Client</h2>
           <p>{{info.client}}</p>
+          <a href="https://perfect-room.cecile-gaultier.fr/" class="btn2 my-5">Link to Perfect Room</a>
        </b-col>
 
        <b-col cols="12" sm="3" class="presentation">
@@ -58,15 +59,15 @@
       </b-row>
       
       <div class="my-5">
-        <h3>Ressources</h3>
+        <h3>Resources</h3>
         <b-row >
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/cake.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
-            <p>The goal of the game is to find a secret code behind a canva. On the canva, there is the cake from Portal (video-games from Valve). This cake is very famous because it is known as “The cake is a lie”. It is a reference to Portal’s main character who was promised a cake but never had until the end of Portal 2. It means that the canva is a fake and hides the secret vault. But when we opened it, we found the real cake like the main character in Portal 2.</p>
+            <p>The goal of the game is to find a secret code behind a canva. On the canva, there is the cake from Portal (video-games from Valve). This cake is very famous because it is known as “The cake is a lie”. It is a reference to Portal’s main character who was promised a cake but never got it until the end of Portal 2. It means that the canva is a fake and hides the secret vault. But when we open it, we find the real cake like the main character in Portal 2.</p>
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/arcade.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
-            <p>One of the keys to finding the real secret code is to click on the arade. At first, it shows a game over screen with “Click on the button A to continue”. If the player clicks on the button A, it shows a screen with a high score. The high score is the code to open the vault.</p>
+            <p>One of the keys to find the real secret code is to click on the arcade. At first, it shows a game over screen with “Click on the button A to continue”. If the player clicks on the button A, it shows a screen with a high score. The high score is the key to open the vault.</p>
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/clavier.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
@@ -74,7 +75,7 @@
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/canape.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:350px">
-            <p>This is just a regular coach … Or is it ?</p>
+            <p>This is just a regular couch … Or is it ?</p>
           </b-col>
         </b-row>
       </div>
@@ -108,7 +109,7 @@ export default {
 
   created(){
         //lecture json directement avec Axios (json dans static)
-        axios.get('static/mmi.json')
+        axios.get('static/proom.json')
         .then(function(response){
         //succès réponse
         console.log(response.data);

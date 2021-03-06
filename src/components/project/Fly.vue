@@ -61,7 +61,7 @@
       </b-row>
       
       <div class="my-5">
-        <h3>Ressources</h3>
+        <h3>Resources</h3>
         <b-row >
           <b-col cols="12">
             <img src="../../assets/fly-color.jpg" alt="Ressources" class="img-fluid my-4" >

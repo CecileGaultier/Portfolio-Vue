@@ -41,11 +41,11 @@
         "reflection": [
             {
                 "id":"1",
-                "text":"Since this application is destined to MMI students we used the color of MMI and kept a simple name “MMI Notes ”. The aesthetic is also very simple because we have a lot of data. As students ourselves, we thought the app could use some new fonctionnalities.  "
+                "text":"Since this application is destined to MMI students, we used the color of MMI and kept a simple name “MMI Notes ”. The aesthetic is also very simple because we have a lot of data. As students ourselves, we thought the app could use some new fonctionnalities.  "
             },
             {
                 "id":"2",
-                "text":" We add the possibility to know where the student stands in the whole promotion and if they can pass their semester. We are currently working on the pdf functionality : students can download their grades in a pdf document. This document is often asked by different schools and it is very important. We know some students are a little bit afraid of their grades and they are easily lacking self-confidence."
+                "text":" We will add the possibility to know where the student stands in the whole promotion and if they can pass their semester. We are currently working on the pdf functionality : students can download their grades in a pdf document. This document is often asked by different schools and it is very important. We know some students are a little bit afraid of their grades and they are easily lacking self-confidence."
             },
             {
                 "id":"3",

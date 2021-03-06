@@ -19,11 +19,10 @@
                     "name":"Action"
                 }
             ],
-        "brief": "We used Ionic 3 and Cordova to create an application for an android that will eventually be available on the android store. The goal was to upgrade the system of grades ’ display and to add some functionalities.",
         "reflection": [
             {
                 "id":"1",
-                "text":"I have created a short video on my favorite series with music from my favorite artist. I used After Eect to create various eect to amplify my messages. The video is focusing only on the Umbara Arc."
+                "text":"I have created a short video on my favorite serie with music from my favorite artist. I used After Effect to create various effects to amplify my messages. The video is focusing only on the Umbara Arc."
             },
             {
                 "id":"2",
@@ -41,7 +40,7 @@
             },
             {
                 "id":"2",
-                "text":"This challenge is an opportunity to experiment and to explore. I almost always choose movies ’ references or characters. Aliens or super beings are always inspiring because the lightning donc aect them like ordinary humans because of their skin, armor, power …"
+                "text":"This challenge is an opportunity to experiment and to explore. I almost always choose movies’ references or characters. Aliens or super beings are always inspiring because the lightning don't affect them like ordinary humans because of their skin, armor, power …"
             }
         ]
     }

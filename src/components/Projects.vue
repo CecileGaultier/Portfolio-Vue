@@ -7,7 +7,7 @@
            <h1 class="my-5">Projects</h1>
            <div class="my-5">
              <p>
-               You can discover my best projects over all the years. If you want to learn more about one or see the whole project you can click on them. If you want a fully detailed list on all my projects, you can click on the link below.
+               You can discover my best projects over all the years. If you want to learn more about one or see the whole project, you can click on them. If you want a fully detailed list on all my projects, you can click on the link below.
              </p>
              <div class="my-5"></div>
              <router-link to="/all">
@@ -140,7 +140,7 @@
                         <p class="cat">Mobile</p>
                     </b-row>
                     <p>
-                      We are conceiving an application on android by pairs. Every student from MMI can connect to their account in order to see their grades and if they have their semester. We are using ionic 3.
+                      We are conceiving an application on android by pairs. Students from MMI can connect to their account in order to see their grades and if they pass their semester. We are using ionic 3.
                     </p>
                     <div class="my-5">
                       <router-link to="/mminotes">
@@ -176,7 +176,7 @@
                         <p class="cat">Scholar</p>
                     </b-row>
                     <p>
-                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all of them with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
                     </p>
                     <div class="my-5">
                       <router-link to="/proom">

@@ -6,7 +6,7 @@
                 "id" : "1",
                 "title" : "Mail",
                 "subtitle" : "Contact",
-                "text" : "I have two different email. The first one is more private but I will answer quicker. the second is more formal.",
+                "text" : "I have two different emails. The first one is more private but I will answer quicker. the second is more formal.",
                 "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjIiIGhlaWdodD0iOTEuNSIgdmlld0JveD0iMCAwIDEyMiA5MS41Ij48cGF0aCBkPSJNMTIyLDEyLjEyNXY3Ni4yNUE3LjQ4OSw3LjQ4OSwwLDAsMSwxMTQuMzc1LDk2SDEwNi43NVYyNi44TDYxLDU5LjY1NCwxNS4yNSwyNi44Vjk2SDcuNjI1QTcuNDg2LDcuNDg2LDAsMCwxLDAsODguMzc1VjEyLjEyNUE3LjQ5Myw3LjQ5MywwLDAsMSw3LjYyNSw0LjVoMi41NDJMNjEsNDEuMzU0LDExMS44MzMsNC41aDIuNTQyQTcuNDkzLDcuNDkzLDAsMCwxLDEyMiwxMi4xMjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIC00LjUpIiBmaWxsPSIjMzIzMDJmIi8+PC9zdmc+",
                 "alt" : "Illustration GMAIL Icon",
                 "info": "(1) gaulph@gmail.com | (2) contact-pro@cecile-gaultier.fr"
@@ -25,7 +25,7 @@
             {
                 "id": "1",
                 "src" : "#",
-                "text" : "Resume - Developpement",
+                "text" : "Resume - Developement",
                 "title" : "test.jpg"
             },
             {

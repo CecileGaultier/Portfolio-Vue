@@ -51,7 +51,7 @@
 
       <b-row class="my-5">
         <b-col cols="12" sm="7">
-          <h3>Escape Games -Python</h3>
+          <h3>Escape Game -Python</h3>
           <img src="../../assets/escape-game.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
         </b-col>

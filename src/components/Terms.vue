@@ -34,7 +34,7 @@
               </b-col>
               <b-col cols="12" sm="9"  class="part">
                   <h2>Links</h2>
-                  <p>Cecile Gaultier's website has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Mad River of the site. Use of any such linked website is at the user's own risk.</p>
+                  <p>Cecile Gaultier's website has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Cecile Gaultier of the site. Use of any such linked website is at the user's own risk.</p>
               </b-col>
                <b-col cols="12" sm="9"  class="part">
                   <h2>Modifications</h2>

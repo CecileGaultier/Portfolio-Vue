@@ -64,7 +64,7 @@
       </b-row>
       
       <div class="my-5">
-        <h3>Ressources</h3>
+        <h3>Resources</h3>
         <b-row >
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-synch.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
@@ -76,11 +76,11 @@
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-welcome.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
-            <p>Students connect to their account with their student number (given by the university). They can access their grades, their GPA … Unfortunately, some functionalities work only on Android and virtual devices can’t use them. It limits the use of the app.</p>
+            <p>Students connect to their account with their student number (given by the university). They can access to their grades, their GPA … Unfortunately, some functionalities work only on Android and virtual devices can’t use them. It limits the use of the app.</p>
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/mmi-connexion.jpg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
-            <p>Timothée Durand worked on the PDF Reader and the Text to Speech because the AVD couldn’t support it. He also works on the connexion and the creation of special components (back-end). I work on I18n, the front-end, the illustration and the student’s profile (photo, grades …).</p>
+            <p>Timothée Durand worked on the PDF Reader and the Text to Speech because the AVD couldn’t support it. He also worked on the connexion and the creation of special components (back-end). I worked on I18n, the front-end, the illustration and the student’s profile (photo, grades …).</p>
           </b-col>
         </b-row>
       </div>

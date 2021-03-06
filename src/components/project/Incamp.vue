@@ -79,7 +79,7 @@
           </div>
 
           <div class="my-5 ressources">
-            <h3>Ressources</h3>
+            <h3>Resources</h3>
             <b-row >
               <b-col cols="12" sm="6" class="my-5">
                 <img src="../../assets/logo-accueil.jpg" alt="Ressources" class="img-fluid my-5 ">
@@ -91,7 +91,7 @@
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
                 <img src="../../assets/incamp-rsn.jpg" alt="Ressources" class="img-fluid my-4 ">
-                <p>We create two accounts for Incamp : one on Instagram, the other on Facebook. We used our logo, colors and photos to create unique content. We have quality subscribers like the town of Montbéliard or green associations.</p>
+                <p>We created two accounts for Incamp : one on Instagram, the other on Facebook. We used our logo, colors and photos to create unique content. We have quality subscribers like the town of Montbéliard or green associations.</p>
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
                 <img src="../../assets/incamp-mockup.jpg" alt="Ressources" class="img-fluid my-5 ">
@@ -99,7 +99,7 @@
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
                 <img src="../../assets/incamp-wp.jpg" alt="Ressources" class="img-fluid my-4 ">
-                <p>As the developer on the team, I build the Wordpress theme from our mock-ups. Wordpress was the best solution for our client because they have no knowledge about websites or web articles. So I choose various plugins to make it more user-friendly like Yoast. I also included Goggle service like Analytics and a newsletter (Sendinblue) to analyse users ‘s behaviour (UX and UI). </p>
+                <p>As the developer on the team, I built the Wordpress theme from our mock-ups. Wordpress was the best solution for our client because they have no knowledge about websites or web articles. So I chose various plugins to make it more user-friendly like Yoast. I also included Goggle service like Analytics and a newsletter (Sendinblue) to analyse users ‘s behaviour (UX and UI). </p>
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
                 <img src="../../assets/incamp-wp2.jpg" alt="Ressources" class="img-fluid my-4 ">

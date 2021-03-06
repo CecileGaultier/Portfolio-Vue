@@ -88,7 +88,7 @@
               <h2>Drawing, Painting, Photo</h2>
               <div class="my-5">
                 <p>
-                  I have been drawing since I learned to hold a pen. I never took drawing classes and I have learned all by myself and by practicing through challenges, contests and exercises.
+                  I have been drawing since I learned how to hold a pen. I never took drawing classes and I have learned all by myself and by practicing through challenges, contests and exercises.
                 </p>
                 <div class="my-5">
                   <router-link to="/art">

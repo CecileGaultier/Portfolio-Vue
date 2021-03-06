@@ -74,7 +74,7 @@
       </div>
 
       <div class="my-5">
-        <h3>Ressources</h3>
+        <h3>Resources</h3>
         <b-row >
           <b-col cols="12" sm="6" class="my-5">
             <img src="../../assets/Bio-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:300px">
