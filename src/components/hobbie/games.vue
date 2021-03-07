@@ -123,8 +123,11 @@ export default {
   margin-top: 8rem;
 }
 
-.carrousel{
-    margin-top: 10rem;
+@media only screen and (max-width:576px){
+  #games{
+      background-position-x: center;
+  }
 }
+
 
 </style>

@@ -244,6 +244,11 @@ export default {
   background-position-y: center;
 }
 
+@media only screen and (max-width:576px){
+  #hobbies{
+      background-position-x: center;
+  }
+}
 
 
 </style>

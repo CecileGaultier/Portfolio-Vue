@@ -157,4 +157,10 @@ export default {
  width: 80vw;
  height: 100vh;
 }
+
+@media only screen and (max-width:576px){
+  #travel{
+      background-position-x: center;
+  }
+}
 </style>

@@ -204,4 +204,10 @@ export default {
 .download p{
   font-size: 1.4rem;
 }
+
+@media only screen and (max-width:576px){
+  #contact{
+      background-position-x: right;
+  }
+}
 </style>

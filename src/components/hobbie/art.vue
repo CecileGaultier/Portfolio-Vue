@@ -126,5 +126,12 @@ export default {
   margin-top: 8rem;
 }
 
+@media only screen and (max-width:576px){
+  #art{
+      background-position-x: center;
+  }
+}
+
+
 
 </style>

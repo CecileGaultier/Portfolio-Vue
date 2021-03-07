@@ -286,9 +286,13 @@ export default {
   }
 
 
-@media only screen and (max-width:536px){
+@media only screen and (max-width:576px){
   .desk{
     max-width: 300px;
+  }
+
+  #projects{
+      background-position-x: center;
   }
 }
 

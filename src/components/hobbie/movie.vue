@@ -119,4 +119,12 @@ export default {
 }
 
 
+@media only screen and (max-width:576px){
+  #movie{
+      background-position-x: center;
+  }
+}
+
+
+
 </style>
