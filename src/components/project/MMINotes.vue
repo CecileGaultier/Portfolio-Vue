@@ -35,9 +35,8 @@
        </b-col>
      </b-row>
 
-     <b-row class="my-5">
-      
-     </b-row>
+      <b-row class="my-5"></b-row>
+     
 
      <h3>Languages / Software</h3>
      <b-row class="my-3 ml-1">
@@ -53,7 +52,18 @@
 
         <img src="../../assets/mmi-carrousel-4.jpg" style="width:100%" class="mySlides">
      </div> -->
-    
+    <b-row  class="my-5">
+      <b-col cols="12" sm="4" class="my-5">
+        <img src="../../assets/mmi-carrousel-1.jpg" alt="Ressources" class="img-fluid my-4">
+      </b-col>
+      <b-col cols="12" sm="4" class="my-5">
+        <img src="../../assets/mmi-carrousel-2.jpg" alt="Ressources" class="img-fluid my-4">
+      </b-col>
+      <b-col cols="12" sm="4" class="my-5">
+        <img src="../../assets/mmi-notes4.jpg" alt="Ressources" class="img-fluid my-4">
+      </b-col>
+    </b-row>
+
     <div id="mminotes2">
 
       <b-row class="my-5">
