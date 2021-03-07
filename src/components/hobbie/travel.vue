@@ -3,7 +3,7 @@
     <div id="travel">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="5" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Travel</h1>
            <div class="my-5"  v-for="info in donnees" :key="info.id">
              <div class="my-5">
@@ -18,7 +18,7 @@
    </div>
    <b-container v-for="info in donnees" :key="info.id" class="my-5">
      <b-row>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Brief</h3>
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p> 
        </b-col>
@@ -159,6 +159,12 @@ export default {
 }
 
 @media only screen and (max-width:576px){
+  #travel{
+      background-position-x: center;
+  }
+}
+
+@media only screen and (max-width:768px){
   #travel{
       background-position-x: center;
   }

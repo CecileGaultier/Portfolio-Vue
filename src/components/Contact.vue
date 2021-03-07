@@ -3,7 +3,7 @@
    <div id="contact">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="4" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Contact</h1>
            <div class="my-5">
              <p class="my-5">

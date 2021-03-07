@@ -3,7 +3,7 @@
     <div id="coppola">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="5" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Francis Ford Coppola</h1>
            <div class="my-5"  v-for="info in donnees" :key="info.id">
              <div class="my-5">
@@ -57,7 +57,7 @@
     <div id="coppola2">
 
       <b-row class="my-5">
-        <b-col cols="12" sm="7">
+        <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Reflection</h3>
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
         </b-col>

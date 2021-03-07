@@ -2,7 +2,7 @@
  <div>
    <b-container>
        <b-row>
-         <b-col cols="12" sm="4" class=" my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class=" my-5">
            <h1 class="mt-5">About</h1>
          </b-col>
        </b-row>
@@ -11,8 +11,8 @@
       <div>
         <b-container v-for="about in info.about" :key="about.id" class="cont">
           <b-row class="my-5">  
-            <b-col cols="12" sm="7">
-              <b-col cols="12" sm="9"  class="part">
+            <b-col cols="12" sm="7" md="12" lg="7">
+              <b-col cols="12" sm="9" md="12" lg="9"  class="part">
                   <h2>{{about.title}}</h2>
                   <p v-for="pr in about.presentation" :key="pr.id">{{pr.text}}</p>
               </b-col>
@@ -27,8 +27,8 @@
 
         <b-container v-for="now in info.now" :key="now.id" class="cont">
           <b-row class="my-5">  
-            <b-col cols="12" sm="7">
-              <b-col cols="12" sm="9"  class="part">
+            <b-col cols="12" sm="7" md="12" lg="7">
+              <b-col cols="12" sm="9" md="12" lg="9"  class="part">
                   <h2>{{now.title}}</h2>
                   <p v-for="pr in now.presentation" :key="pr.id" class="mb-5">{{pr.text}}</p>
                   <router-link to="/contact">
@@ -46,7 +46,7 @@
 
         <b-container v-for="skill in info.skill" :key="skill.id" class="cont">
           <b-row class="my-5 ml-1">  
-            <b-col cols="12" sm="6"  class="part" v-for="pr in skill.presentation" :key="pr.id">
+            <b-col cols="12" sm="7" md="12" lg="7"  class="part" v-for="pr in skill.presentation" :key="pr.id">
                 <h2><i :class="pr.icon"></i>{{pr.title}} </h2>
                 <h4 class="mt-5">Notions : </h4>
                 <p v-for="notion in pr.notion" :key="notion.id">{{notion.text}}</p>

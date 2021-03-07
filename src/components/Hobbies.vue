@@ -3,7 +3,7 @@
    <div id="hobbies">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="4" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Hobbies</h1>
            <div class="my-5">
              <p>
@@ -245,6 +245,12 @@ export default {
 }
 
 @media only screen and (max-width:576px){
+  #hobbies{
+      background-position-x: center;
+  }
+}
+
+@media only screen and (max-width:768px){
   #hobbies{
       background-position-x: center;
   }

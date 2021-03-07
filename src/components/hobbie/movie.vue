@@ -3,7 +3,7 @@
     <div id="movie">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="5" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Cinema</h1>
            <div class="my-5"  v-for="info in donnees" :key="info.id">
              <div class="my-5">
@@ -30,7 +30,7 @@
     <div id="movie2">
 
       <b-row class="my-5">
-        <b-col cols="12" sm="7">
+        <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Clone Wars - After Effect</h3>
           <img src="../../assets/clones.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
@@ -41,7 +41,7 @@
       </b-row>
 
       <b-row class="my-5">
-        <b-col cols="12" sm="7">
+        <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Inktober</h3>
           <img src="../../assets/inktober3.jpg" alt="Project Inktober 2020" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
@@ -125,6 +125,11 @@ export default {
   }
 }
 
+@media screen and (max-width: 768px){
+  #movie{
+      background-position-x: center;
+  }
+}
 
 
 </style>

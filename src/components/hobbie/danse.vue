@@ -3,7 +3,7 @@
     <div id="danse">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="5" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Dance</h1>
            <div class="my-5"  v-for="info in donnees" :key="info.id">
              <div class="my-5">
@@ -18,7 +18,7 @@
    </div>
    <b-container v-for="info in donnees" :key="info.id" class="my-5">
      <b-row>
-          <b-col cols="12" sm="6">
+          <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Brief</h3>
           <p>{{info.brief}}</p>
        </b-col>
@@ -38,7 +38,7 @@
     <div id="danse2">
 
       <b-row class="my-5">
-        <b-col cols="12" sm="7">
+        <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Million Eyes</h3>
           <img src="../../assets/danse3.jpg" alt="Project Same Through Years" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p> 
@@ -46,7 +46,7 @@
       </b-row>
 
       <b-row class="my-5">
-        <b-col cols="12" sm="7">
+        <b-col cols="12" sm="7" md="12" lg="7">
           <h3>DWP Paris - International Internship</h3>
           <img src="../../assets/dwp-paris.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
@@ -124,5 +124,12 @@ export default {
       background-position-x: center;
   }
 }
+
+@media only screen and (max-width:768px){
+  #danse{
+      background-position-x: center;
+  }
+}
+
 
 </style>

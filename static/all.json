@@ -106,6 +106,10 @@
             {
                 "id": "26",
                 "text": "- Lego Catapult | 3D computer graphics"
+            },
+            {
+                "id": "27",
+                "text": "- Movie Application | Ionic, Cordova, Open Data Movie, Firebase"
             }
         ]
     },

@@ -10,12 +10,12 @@
    <div>
         <b-container class="cont">
           <b-row class="my-5">  
-            <b-col cols="12" sm="10">
-              <b-col cols="12" sm="10"  class="part">
+            <b-col cols="12" sm="10" md="12" lg="10">
+              <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <h2>Terms</h2>
                   <p>By accessing the website at <a href="http://cecile-gaultier.fr">http://cecile-gaultier.fr</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
               </b-col>
-              <b-col cols="12" sm="9"  class="part">
+              <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <h2>Use license</h2>
                   <p>Permission is granted to temporarily download one copy of the materials (information or software) on Cecile Gaultier's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
                   <ul>
@@ -28,15 +28,15 @@
                   <p>This license shall automatically terminate if you violate any of these restrictions and may be terminated by Cecile Gaultier at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.</p>
                   <p>Cecile Gaultier does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</p>
               </b-col>
-              <b-col cols="12" sm="9"  class="part">
+              <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <h2>Accuracy of materials</h2>
                   <p>The materials appearing on Cecile Gaultier's website could include technical, typographical, or photographic errors. Cecile Gaultier's website does not warrant that any of the materials on its website are accurate, complete or current. Cecile Gaultier's website may make changes to the materials contained on its website at any time without notice. However Cecile Gaultier's website does not make any commitment to update the materials.</p>
               </b-col>
-              <b-col cols="12" sm="9"  class="part">
+              <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <h2>Links</h2>
                   <p>Cecile Gaultier's website has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Cecile Gaultier of the site. Use of any such linked website is at the user's own risk.</p>
               </b-col>
-               <b-col cols="12" sm="9"  class="part">
+               <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <h2>Modifications</h2>
                   <p>Cecile Gaultier's website may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>
               </b-col>
@@ -57,8 +57,8 @@
      <div>
         <b-container class="cont">
           <b-row class="my-5">  
-            <b-col cols="12" sm="10">
-              <b-col cols="12" sm="10"  class="part">
+            <b-col cols="12" sm="10" md="12" lg="10">
+              <b-col cols="12" sm="10" md="12" lg="10"  class="part">
                   <p>I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.</p>
                   <p>I don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>
                   <p>My website may link to external sites that are not operated by me. Please be aware that I have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>

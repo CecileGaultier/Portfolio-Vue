@@ -3,7 +3,7 @@
     <div id="incamp">
      <b-container>
        <b-row>
-         <b-col cols="12" sm="5" class="intro my-5">
+         <b-col cols="12" sm="4" md="6" lg="4" class="intro my-5">
            <h1 class="my-5">Incamp</h1>
            <div class="my-5"  v-for="info in donnees" :key="info.id">
              <div class="my-5">
@@ -62,7 +62,7 @@
       <div id="incamp2">
 
           <b-row class="my-5">
-            <b-col cols="12" sm="7">
+            <b-col cols="12" sm="7" md="12" lg="7">
               <h3>Reflection</h3>
               <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
             </b-col>
@@ -86,7 +86,7 @@
                 <p>Manon Jeanpierre created our logo. The circles represent different departments from our university. It symbolizes their unity. The leaf in the middle means that sustainable development is in the center of the university’s goal.</p>
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
-                <img src="../../assets/watering_plant.svg" alt="Ressources" class="img-fluid" style="max-width:350px">
+                <img src="../../assets/watering_plant.svg" alt="Ressources" class="img-fluid">
                 <p>We used illustrations from a free rights library to create harmony and to break the text intensity. Manon Jeanpierre modified them with our colors.</p>
               </b-col>
               <b-col cols="12" sm="6" class="my-5">
@@ -185,5 +185,16 @@ export default {
   }
 }
 
+
+@media screen and (max-width: 768px){
+  .btn2{
+    display: none;
+  }
+
+    
+  .ressources img{
+    max-width: 300px;
+  }
+}
 
 </style>
