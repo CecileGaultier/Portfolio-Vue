@@ -68,7 +68,7 @@
                     <p>
                       We had to conceive and build a responsive website about an assigned famous movie director. I based all my reflection around Francis Ford Coppola’s world and his movies.
                     </p>
-                    <div class="my-5">
+                    <div class="my-5" >
                       <router-link to="/coppola">
                         <a href="#" class="btn2">Discover</a>
                       </router-link>

@@ -41,6 +41,7 @@ export default {
     }
   },
 }
+
 </script>
 
 <style>
@@ -51,6 +52,7 @@ export default {
 body{
   font-family: "Jura", sans-serif;
   color: #1F1F1F;
+  cursor: url("./assets/cursor-1.svg"),default;
 }
 
 h1,h2,h4,h5{
@@ -86,7 +88,7 @@ a{
   color: #1F1F1F;
   font-family: "Teko", sans-serif;
   font-size: 1.5rem;
-
+  cursor: url("./assets/cursor-2.svg"),default;
 }
 
 a:hover{
@@ -110,6 +112,7 @@ a.btn:hover{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
+  cursor: url("./assets/cursor-2.svg"),default;
 
 }
 
@@ -119,6 +122,8 @@ a.btn2{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
+  cursor: url("./assets/cursor-2.svg"),default;
+
 }
 
 a.btn2:hover{
@@ -127,6 +132,10 @@ a.btn2:hover{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
+}
+
+.btn:not(:disabled):not(.disabled){
+  cursor: url("./assets/cursor-2.svg"),default;
 }
 
 .navbar{
@@ -181,6 +190,8 @@ p.cat2{
   font-weight: bold;
   margin-right: 1rem;
 }
+
+
 
 footer{
   color: white;
