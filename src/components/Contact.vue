@@ -114,7 +114,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center my-4" >
-              <img src="../assets/dream.svg" alt="Illustration enfant" class="img-fluid">
+              <img src="https://cecile-gaultier.fr/static/img/dream.8a1f236.svg" alt="Illustration enfant" class="img-fluid">
               </b-col>
           </b-row>
         </b-container>

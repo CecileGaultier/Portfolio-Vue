@@ -65,12 +65,12 @@
       
       <div class="my-5">
         <h3>First Page</h3>
-        <img src="../../assets/coppola-accueil.jpg" alt="Mock-up Accueil" class="img-fluid">
+        <img src="https://cecile-gaultier.fr/static/img/coppola-accueil.2e9a335.jpg" alt="Mock-up Accueil" class="img-fluid">
       </div>
 
       <div class="my-5">
         <h3>Responsive</h3>
-        <img src="../../assets/coppola-responsive.jpg" alt="Mock-up Responsive" class="img-fluid">
+        <img src="https://cecile-gaultier.fr/static/img/coppola-responsive.e38ad1c.jpg" alt="Mock-up Responsive" class="img-fluid">
       </div>
 
       <div class="my-5">
@@ -81,7 +81,7 @@
             <p>This illustration was used for the biography page. I played with the common idea that biographies are books, which is not totally true with the Internet. On this page, viewers can learn about Francis Ford Coppola’s life but mainly what is his style when making movies. The design of the website and Coppola’s style are directly linked.</p>
           </b-col>
           <b-col cols="12" sm="6" class="my-5">
-            <img src="../../assets/Prix-illu.svg" alt="Ressources" class="img-fluid my-4" style="max-width:270px">
+            <img src="https://cecile-gaultier.fr/static/img/Prix-illu.3029159.svg" alt="Ressources" class="img-fluid my-4" style="max-width:270px">
             <p>Francis Ford Coppola and his family (daughter Sofia Coppola and nephew Nicolas Cage) are very well-known. They have won many prizes / awards through movies. </p>
           </b-col>
           <b-col cols="12" sm="6" class="my-5">

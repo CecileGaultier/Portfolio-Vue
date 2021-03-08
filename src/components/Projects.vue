@@ -80,7 +80,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/coppola2.jpg" alt="Mockup Coppola" class="img-fluid" style="max-width:250px">
+                 <img src="https://cecile-gaultier.fr/static/img/coppola2.7ad01e1.jpg" alt="Mockup Coppola" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>
@@ -117,7 +117,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                <img src="../assets/incamp3.jpg" alt="Mockup Incamp" class="img-fluid" style="max-width:250px">
+                <img src="https://cecile-gaultier.fr/static/img/incamp3.e4e8a7b.jpg" alt="Mockup Incamp" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>
@@ -154,7 +154,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/mmi-notes1.jpg" alt="Mockup MMI Notes" class="img-fluid" style="max-width:250px">
+                 <img src="https://cecile-gaultier.fr/static/img/mmi-notes1.f53eff8.jpg" alt="Mockup MMI Notes" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>
@@ -190,7 +190,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/proom1.jpg" alt="Mockup Perfect Room" class="img-fluid desk">
+                 <img src="https://cecile-gaultier.fr/static/img/proom1.085eed4.jpg" alt="Mockup Perfect Room" class="img-fluid desk">
             </b-col>
           </b-row>
         </b-container>
@@ -227,7 +227,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="../assets/fly-new2.jpg" alt="Mockup Fly New" class="img-fluid" style="max-width:250px">
+                 <img src="https://cecile-gaultier.fr/static/img/fly-new2.487945e.jpg" alt="Mockup Fly New" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>

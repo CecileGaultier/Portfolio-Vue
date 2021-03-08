@@ -44,10 +44,10 @@
 
     <b-row class="my-5">
        <b-col cols="12" sm="6">
-          <img src="../../assets/fly-new2.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
+          <img src="https://cecile-gaultier.fr/static/img/fly-new2.487945e.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
         </b-col>
         <b-col cols="12" sm="6">
-          <img src="../../assets/fly-new3.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
+          <img src="https://cecile-gaultier.fr/static/img/fly-new3.9ef2a2e.jpg" alt="Mock-up" class="img-fluid my-4" style="max-width:350px">
         </b-col>
      </b-row>
       
@@ -64,10 +64,10 @@
         <h3>Resources</h3>
         <b-row >
           <b-col cols="12">
-            <img src="../../assets/fly-color.jpg" alt="Ressources" class="img-fluid my-4" >
+            <img src="https://cecile-gaultier.fr/static/img/fly-color.b591dcb.jpg" alt="Ressources" class="img-fluid my-4" >
           </b-col>
           <b-col cols="12">
-            <img src="../../assets/fly-icon.jpg" alt="Ressources" class="img-fluid my-4" >
+            <img src="https://cecile-gaultier.fr/static/img/fly-icon.6fcd688.jpg" alt="Ressources" class="img-fluid my-4" >
           </b-col>
         </b-row>
       </div>

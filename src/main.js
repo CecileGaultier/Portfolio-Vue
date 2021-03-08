@@ -7,17 +7,6 @@ import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
-//import Vue I18n
-import VueI18n from 'vue-i18n'
-
-// Import de jquery-vue
-import Vuejquery from 'vue-jquery'
-
-// Import de Popper-vue
-import Popper from 'vue-popperjs';
-// Import des styles de Popper-vue
-import 'vue-popperjs/dist/vue-popper.css';
-
 // Import de Bootstrap-vue
 import BootstrapVue from 'bootstrap-vue'
 // Import des styles de boostrap-vue
@@ -37,15 +26,6 @@ import 'leaflet/dist/leaflet.css';
 
 
 Vue.use(VueAxios, axios)
-
-Vue.use(VueI18n)
-
-Vue.use(Vuejquery)
-
-// Vue.use(VueThreejs)
-
-// Utilisation de Bootstrap-vue
-Vue.use(Popper);
 
 // Utilisation de Bootstrap-vue
 Vue.use(BootstrapVue);
