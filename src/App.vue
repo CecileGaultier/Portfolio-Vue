@@ -4,7 +4,7 @@
       <b-navbar toggleable="md" type="dark" >
         <b-navbar-brand href="#">
           <router-link to="/">
-            <img src="./assets/logo2.svg" alt="Logo" class="navbar-brand" style="width: 30px;"> 
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MC4xNCA2Ny40MSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMxZDFkMWI7c3Ryb2tlLXdpZHRoOjNweDt9LmNscy0xLC5jbHMtMntzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2Utd2lkdGg6NHB4O308L3N0eWxlPjwvZGVmcz48ZyBpZD0iQ2FscXVlXzIiIGRhdGEtbmFtZT0iQ2FscXVlIDIiPjxnIGlkPSJDYWxxdWVfMi0yIiBkYXRhLW5hbWU9IkNhbHF1ZSAyIj48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjEuNSIgeT0iMS41IiB3aWR0aD0iNDcuMTQiIGhlaWdodD0iNjQuNDEiLz48bGluZSBjbGFzcz0iY2xzLTIiIHgxPSIzMC44MiIgeTE9IjMzLjcxIiB4Mj0iNDIuNDEiIHkyPSIzMy43MSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxMC4wMyAxMC40OCAxMC4wMyA1Ni45MyAyMC42NiA1Ni45MyAyNi45OSAxMC40OCAxMC4wMyAxMC40OCIvPjxwb2x5bGluZSBjbGFzcz0iY2xzLTIiIHBvaW50cz0iNDAuMzkgMjcuNTggNDAuMzkgMTAuNDggMjYuOTkgMTAuNDggMjAuNjYgNTYuOTMgNDAuMzkgNTYuOTMgNDAuMzkgMzEuODYiLz48L2c+PC9nPjwvc3ZnPg==" alt="Logo" class="navbar-brand" style="width: 30px;"> 
           </router-link>
         </b-navbar-brand>
 
@@ -52,7 +52,7 @@ export default {
 body{
   font-family: "Jura", sans-serif;
   color: #1F1F1F;
-  cursor: url("./assets/cursor-1.svg"),default;
+  cursor: url("../static/img/cursor-1.svg"),default;
 }
 
 h1,h2,h4,h5{
@@ -88,7 +88,7 @@ a{
   color: #1F1F1F;
   font-family: "Teko", sans-serif;
   font-size: 1.5rem;
-  cursor: url("./assets/cursor-2.svg"),default;
+  cursor: url("../static/img/cursor-2.svg"),default;
 }
 
 a:hover{
@@ -112,7 +112,7 @@ a.btn:hover{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
-  cursor: url("./assets/cursor-2.svg"),default;
+  cursor: url("../static/img/cursor-2.svg"),default;
 
 }
 
@@ -122,7 +122,7 @@ a.btn2{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
-  cursor: url("./assets/cursor-2.svg"),default;
+  cursor: url("../static/img/cursor-2.svg"),default;
 
 }
 
@@ -135,7 +135,7 @@ a.btn2:hover{
 }
 
 .btn:not(:disabled):not(.disabled){
-  cursor: url("./assets/cursor-2.svg"),default;
+  cursor: url("../static/img/cursor-2.svg"),default;
 }
 
 .navbar{
