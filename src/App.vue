@@ -50,7 +50,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
 
 body{
-  font-family: "Jura", sans-serif;
+  font-family: "Jura", sans-serif !important;
   color: #1F1F1F;
   cursor: url("../static/img/cursor-1.svg"),default;
 }
@@ -92,8 +92,8 @@ a{
 }
 
 a:hover{
-  text-decoration: none;
-  color: #1F1F1F;
+  text-decoration: none !important;
+  color: #1F1F1F !important;
 }
 
 
@@ -132,14 +132,19 @@ a.btn2:hover{
   padding: .2rem 2rem;
   font-family: "Teko",sans-serif;
   font-size: 1.5rem;
+  cursor: url("../static/img/cursor-2.svg"),default;
 }
 
 .btn:not(:disabled):not(.disabled){
-  cursor: url("../static/img/cursor-2.svg"),default;
+  cursor: url("../static/img/cursor-2.svg"),default !important; 
 }
 
 .navbar{
   background-color: #1F1F1F;
+}
+
+.nav-link{
+  margin-left: 5rem;
 }
 
 .contact{
@@ -218,5 +223,15 @@ footer a:hover{
   .navbar-nav .nav-link{
     padding-left: .5rem;
   }
+
+  .nav-link{
+    margin-left: initial !important;
+  }
+
+  .presentation{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
 }
 </style>
