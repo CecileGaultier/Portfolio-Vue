@@ -110,7 +110,7 @@ export default {
 <style scoped>
 
 #art{
-  background-image: url("../../assets/dessin-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/dessin-front.f52530c.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

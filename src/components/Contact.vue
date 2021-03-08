@@ -146,7 +146,7 @@ export default {
         axios.get('static/contact.json')
         .then(function(response){
         //succès réponse
-        console.log(response.data);
+        console.log("Created",response.data);
         this.donnees = response.data;
         }.bind(this)) //Zone isolée -> bind pour closure
         .catch(function(error){
@@ -156,7 +156,8 @@ export default {
   },
 
   methods: {
-    forceFileDownload(response, title) {
+
+  forceFileDownload(response, title) {
       console.log(title)
       const url = window.URL.createObjectURL(new Blob([response.data]))
       const link = document.createElement('a')
@@ -165,21 +166,22 @@ export default {
       document.body.appendChild(link)
       link.click()
     },
-    downloadWithAxios(url, title) {
-      axios({
-        method: 'get',
-        url,
-        responseType: 'arraybuffer',
-      })
+
+    downloadWithAxios(objet) {
+      let url = objet.src;
+      let title = objet.title;
+      console.log("objet", objet);
+      console.log("url", url);
+      axios.get(url,{responseType: 'arraybuffer'})
         .then((response) => {
+        console.log("response", response);
           this.forceFileDownload(response, title)
         })
         .catch(() => console.log('error occured'))
-    }
-    }
+    } 
+  }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
