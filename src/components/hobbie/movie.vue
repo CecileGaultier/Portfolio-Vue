@@ -32,7 +32,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Clone Wars - After Effect</h3>
-          <img src="../../assets/clones.jpg" alt="Project Clone Wars" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/clones.60f580a.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://youtu.be/FDlx85JPkRU" class="btn2"><i class="fas fa-play"></i></a>
@@ -43,7 +43,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Inktober</h3>
-          <img src="../../assets/inktober3.jpg" alt="Project Inktober 2020" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/inktober3.219045d.jpg" alt="Project Inktober 2020" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
@@ -102,7 +102,7 @@ export default {
 <style scoped>
 
 #movie{
-  background-image: url("../../assets/movie2-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/movie2-front.e3994b9.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

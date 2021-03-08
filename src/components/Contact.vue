@@ -184,7 +184,7 @@ export default {
 <style scoped>
 
 #contact{
-  background-image: url("../assets/contact.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/contact.752441c.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

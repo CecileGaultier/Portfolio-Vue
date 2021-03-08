@@ -128,7 +128,7 @@ export default {
 <style scoped>
 
 #proom{
-  background-image: url("../../assets/proom-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/proom-front.d8609c0.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

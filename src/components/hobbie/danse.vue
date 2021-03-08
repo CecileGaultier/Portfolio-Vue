@@ -40,7 +40,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Million Eyes</h3>
-          <img src="../../assets/danse3.jpg" alt="Project Same Through Years" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/danse3.4d592e0.jpg" alt="Project Same Through Years" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p> 
         </b-col>
       </b-row>
@@ -48,7 +48,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>DWP Paris - International Internship</h3>
-          <img src="../../assets/dwp-paris.jpg" alt="Project Clone Wars" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/dwp-paris.62b6f5a.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
         </b-col>
       </b-row>
@@ -103,7 +103,7 @@ export default {
 <style scoped>
 
 #danse{
-  background-image: url("../../assets/danse-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/danse-front.2656ac4.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

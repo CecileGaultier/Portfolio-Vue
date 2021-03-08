@@ -115,7 +115,7 @@ export default {
 <style scoped>
 
 #fly{
-  background-image: url("../../assets/fly-new-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/fly-new-front.a213c74.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

@@ -143,7 +143,7 @@ export default {
 <style scoped>
 
 #mminotes{
-  background-image: url("../../assets/mmi-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/mmi-front.eac6ca9.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

@@ -40,7 +40,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>MMI - Sims 4</h3>
-          <img src="../../assets/sims2-2.jpg" alt="Project Same Through Years" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/sims2-2.64018fe.jpg" alt="Project Same Through Years" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
@@ -52,7 +52,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Escape Game -Python</h3>
-          <img src="../../assets/escape-game.jpg" alt="Project Clone Wars" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/escape-game.fc7eccf.jpg" alt="Project Clone Wars" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
         </b-col>
       </b-row>
@@ -107,7 +107,7 @@ export default {
 <style scoped>
 
 #games{
-  background-image: url("../../assets/sims2-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/sims2-front.bcd130b.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

@@ -137,7 +137,7 @@ export default {
 <style scoped>
 
 #travel{
-  background-image: url("../../assets/travel-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/travel-front.7934c59.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

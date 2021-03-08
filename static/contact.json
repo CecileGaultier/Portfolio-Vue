@@ -24,25 +24,25 @@
         "download" : [
             {
                 "id": "1",
-                "src" : "#",
+                "src" : "https://cecile-gaultier.fr/static/img/Cv-Design.9b19a5c.jpg",
                 "text" : "Resume - Developement",
                 "title" : "test.jpg"
             },
             {
                 "id": "2",
-                "src" : "static/img/Cv-Design.9b19a5c.jpg",
+                "src" : "https://cecile-gaultier.fr/static/img/Cv-Design.9b19a5c.jpg",
                 "text" : "Resume - Design",
                 "title" : "Resume-Design.jpg"
             },
             {
                 "id": "3",
-                "src" : "static/img/rgpd.cc79c09.jpg",
+                "src" : "https://cecile-gaultier.fr/static/img//rgpd.cc79c09.jpg",
                 "text" : "RGPD - Attestation",
                 "title" : "RGPD.jpg"
             },
             {
                 "id": "4",
-                "src" : "static/img/cambridge.83d2761.jpg",
+                "src" : "https://cecile-gaultier.fr/static/img/cambridge.83d2761.jpg",
                 "text" : "Cambridge - Certification",
                 "title" : "Cambridge.jpg"
             }

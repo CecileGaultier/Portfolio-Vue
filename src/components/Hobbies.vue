@@ -236,7 +236,7 @@ export default {
 <style scoped>
 
 #hobbies{
-  background-image: url("../assets/danse2-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/danse2-front.9e3281b.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

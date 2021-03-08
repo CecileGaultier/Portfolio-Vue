@@ -273,7 +273,7 @@ export default {
 <style scoped>
 
 #projects{
-  background-image: url("../assets/projets.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/projets.ca13209.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

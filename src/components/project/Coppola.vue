@@ -148,7 +148,7 @@ export default {
 <style scoped>
 
 #coppola{
-  background-image: url("../../assets/coppola-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/coppola-front.418b55d.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

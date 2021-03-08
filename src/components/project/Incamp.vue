@@ -159,7 +159,7 @@ export default {
 <style scoped>
 
 #incamp{
-  background-image: url("../../assets/incamp-front.jpg");
+  background-image: url("https://cecile-gaultier.fr/static/img/incamp-front.f538ad2.jpg");
   content: "";
   background-repeat: no-repeat;
   margin-left: .5rem;

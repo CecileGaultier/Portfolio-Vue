@@ -1,11 +1,5 @@
+// vue.config.js
 module.exports = {
-  runtimeCompiler: true,
-  pluginOptions: {
-    i18n: {
-      locale: 'en',
-      fallbackLocale: 'fr',
-      localeDir: 'locales',
-      enableInSFC: false
-    }
-  }
-}
+  devServer: {
+      proxy: 'https://cecile-gaultier.fr/'
+  } }

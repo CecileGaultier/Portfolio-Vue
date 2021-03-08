@@ -33,7 +33,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Same Through Years</h3>
-          <img src="../../assets/same.jpg" alt="Project Same Through Years" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/same.c6a21ee.jpg" alt="Project Same Through Years" class="img-fluid my-4">
           <p v-for="ref in info.reflection" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
@@ -44,7 +44,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Three Universes</h3>
-          <img src="../../assets/drawing.jpg" alt="Project Three Universes" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/drawing.3e533f1.jpg" alt="Project Three Universes" class="img-fluid my-4">
           <p v-for="ref in info.reflection2" :key="ref.id">{{ref.text}}</p>
         </b-col>
       </b-row>
@@ -52,7 +52,7 @@
       <b-row class="my-5">
         <b-col cols="12" sm="7" md="12" lg="7">
           <h3>Snowy Dogs</h3>
-          <img src="../../assets/photo.jpg" alt="Project Snowy Dogs" class="img-fluid my-4">
+          <img src="https://cecile-gaultier.fr/static/img/photo.d79989d.jpg" alt="Project Snowy Dogs" class="img-fluid my-4">
           <p v-for="ref in info.reflection3" :key="ref.id">{{ref.text}}</p>
           <div class="my-5">
             <a href="https://www.instagram.com/cecile_gaultier/" class="btn2">Discover</a>
