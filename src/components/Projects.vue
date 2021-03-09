@@ -50,42 +50,7 @@
       </div>
     </div> -->
 
-    <div>
-      <div class="case">
-        <b-container>
-          <b-row class="my-5">  
-            <b-col cols="12" sm="7">
-              <b-col cols="12" sm="9">
-                  <h3>2021</h3>
-                  <h2>Francis Ford Coppola</h2>
-                  <div class="my-5">
-                    <b-row class="ml-1">
-                        <p class="cat">Web</p>
-                        <p class="cat">Individual</p>
-                        <p class="cat">Scholar</p>
-                        <p class="cat">Responsive</p>
-                    </b-row>
-                    <p>
-                      We had to conceive and build a responsive website about an assigned famous movie director. I based all my reflection around Francis Ford Coppola’s world and his movies.
-                    </p>
-                    <div class="my-5" >
-                      <router-link to="/coppola">
-                        <a href="#" class="btn2">Discover</a>
-                      </router-link>
-                    </div>
-                    
-                  </div>
-              </b-col>
-              
-            </b-col>
-
-            <b-col cols="12" sm="5" class="text-center" >
-                 <img src="https://cecile-gaultier.fr/static/img/coppola2.7ad01e1.jpg" alt="Mockup Coppola" class="img-fluid" style="max-width:250px">
-            </b-col>
-          </b-row>
-        </b-container>
-      </div>
-    </div>
+    
     <div>
       <div class="case">
         <b-container>
@@ -131,6 +96,42 @@
             <b-col cols="12" sm="7">
               <b-col cols="12" sm="9">
                   <h3>2021</h3>
+                  <h2>Perfect Room</h2>
+                  <div class="my-5">
+                    <b-row class="ml-1">
+                        <p class="cat">3D</p>
+                        <p class="cat">Collective</p>
+                        <p class="cat">Scholar</p>
+                    </b-row>
+                    <p>
+                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all of them with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                    </p>
+                    <div class="my-5">
+                      <router-link to="/proom">
+                        <a href="#" class="btn2">Discover</a>
+                      </router-link>
+                    </div>
+                    
+                  </div>
+              </b-col>
+              
+            </b-col>
+
+            <b-col cols="12" sm="5" class="text-center" >
+                 <img src="https://cecile-gaultier.fr/static/img/proom1.085eed4.jpg" alt="Mockup Perfect Room" class="img-fluid desk">
+            </b-col>
+          </b-row>
+        </b-container>
+      </div>
+    </div>
+
+    <div>
+      <div class="case">
+        <b-container>
+          <b-row class="my-5">  
+            <b-col cols="12" sm="7">
+              <b-col cols="12" sm="9">
+                  <h3>2021</h3>
                   <h2>MMI Notes</h2>
                   <div class="my-5">
                     <b-row class="ml-1">
@@ -168,18 +169,19 @@
             <b-col cols="12" sm="7">
               <b-col cols="12" sm="9">
                   <h3>2021</h3>
-                  <h2>Perfect Room</h2>
+                  <h2>Francis Ford Coppola</h2>
                   <div class="my-5">
                     <b-row class="ml-1">
-                        <p class="cat">3D</p>
-                        <p class="cat">Collective</p>
+                        <p class="cat">Web</p>
+                        <p class="cat">Individual</p>
                         <p class="cat">Scholar</p>
+                        <p class="cat">Responsive</p>
                     </b-row>
                     <p>
-                      We are conceiving our perfect room in 3Ds Max by pairs. We build almost every object and lights. Then we import all of them with the library Three.js into an HTML Page. The viewers can interact with the room and the objects.
+                      We had to conceive and build a responsive website about an assigned famous movie director. I based all my reflection around Francis Ford Coppola’s world and his movies.
                     </p>
-                    <div class="my-5">
-                      <router-link to="/proom">
+                    <div class="my-5" >
+                      <router-link to="/coppola">
                         <a href="#" class="btn2">Discover</a>
                       </router-link>
                     </div>
@@ -190,7 +192,7 @@
             </b-col>
 
             <b-col cols="12" sm="5" class="text-center" >
-                 <img src="https://cecile-gaultier.fr/static/img/proom1.085eed4.jpg" alt="Mockup Perfect Room" class="img-fluid desk">
+                 <img src="https://cecile-gaultier.fr/static/img/coppola2.7ad01e1.jpg" alt="Mockup Coppola" class="img-fluid" style="max-width:250px">
             </b-col>
           </b-row>
         </b-container>

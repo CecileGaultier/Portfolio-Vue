@@ -96,12 +96,13 @@
         </b-row>
       </div>
 
-       <div class="my-5">
-        <router-link to="/incamp">
-          <h3 class="next">Projet suivant : Incamp <i class="far fa-play-circle ml-2"></i></h3>
+       
+           
+      <div class="my-5">
+        <router-link to="/fly">
+          <h3 class="next">Projet suivant : Fly New <i class="far fa-play-circle ml-2"></i></h3>
         </router-link>
       </div>
-           
     </div>
 
    </b-container>

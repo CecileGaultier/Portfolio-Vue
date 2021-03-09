@@ -107,10 +107,7 @@
                   <h2>Documents</h2>
                   <div class="text-center"> 
                     <div class="download my-3">
-                        <a href="https://cecile-gaultier.fr/static/img/download/CV-Design.jpg">Resume - Design</a>
-                    </div>
-                    <div class="download my-3">
-                        <a href="https://cecile-gaultier.fr/static/img/download/CV-Design.jpg">Resume - Developement</a>
+                        <a href="https://cecile-gaultier.fr/static/img/download/CV-Design.jpg">Resume </a>
                     </div>
                     <div class="download my-3">
                         <a href="https://cecile-gaultier.fr/static/img/download/rgpd.jpg">RGPD - Attestation</a>

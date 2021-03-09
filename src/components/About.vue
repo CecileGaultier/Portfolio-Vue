@@ -46,7 +46,7 @@
 
         <b-container v-for="skill in info.skill" :key="skill.id" class="cont">
           <b-row class="my-5 ml-1">  
-            <b-col cols="12" sm="7" md="12" lg="7"  class="part" v-for="pr in skill.presentation" :key="pr.id">
+            <b-col cols="12" sm="6" md="12" lg="6"  class="part" v-for="pr in skill.presentation" :key="pr.id">
                 <h2><i :class="pr.icon"></i>{{pr.title}} </h2>
                 <h4 class="mt-5">Notions : </h4>
                 <p v-for="notion in pr.notion" :key="notion.id">{{notion.text}}</p>
