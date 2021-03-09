@@ -105,9 +105,18 @@
               <b-col cols="12" sm="9">
                   <h3>Download</h3>
                   <h2>Documents</h2>
-                  <div class="text-center" v-for="down in info.download" :key="down.id"> 
-                    <div class="download my-3" @click="downloadWithAxios(down.src, down.title)">
-                        <p>{{down.text}}</p>
+                  <div class="text-center"> 
+                    <div class="download my-3">
+                        <a href="https://cecile-gaultier.fr/static/img/download/CV-Design.jpg">Resume - Design</a>
+                    </div>
+                    <div class="download my-3">
+                        <a href="https://cecile-gaultier.fr/static/img/download/CV-Design.jpg">Resume - Developement</a>
+                    </div>
+                    <div class="download my-3">
+                        <a href="https://cecile-gaultier.fr/static/img/download/rgpd.jpg">RGPD - Attestation</a>
+                    </div>
+                    <div class="download my-3">
+                        <a href="https://cecile-gaultier.fr/static/img/download/cambridge.jpg">Cambridge - Certification</a>
                     </div>
                   </div>
               </b-col>         
@@ -146,7 +155,7 @@ export default {
         axios.get('static/contact.json')
         .then(function(response){
         //succès réponse
-        console.log("Created",response.data);
+        console.log(response.data);
         this.donnees = response.data;
         }.bind(this)) //Zone isolée -> bind pour closure
         .catch(function(error){
@@ -155,31 +164,28 @@ export default {
         })
   },
 
-  methods: {
-
-  forceFileDownload(response, title) {
-      console.log(title)
-      const url = window.URL.createObjectURL(new Blob([response.data]))
-      const link = document.createElement('a')
-      link.href = url
-      link.setAttribute('download', title)
-      document.body.appendChild(link)
-      link.click()
-    },
-
-    downloadWithAxios(objet) {
-      let url = objet.src;
-      let title = objet.title;
-      console.log("objet", objet);
-      console.log("url", url);
-      axios.get(url,{responseType: 'arraybuffer'})
-        .then((response) => {
-        console.log("response", response);
-          this.forceFileDownload(response, title)
-        })
-        .catch(() => console.log('error occured'))
-    } 
-  }
+  // methods: {
+  //   forceFileDownload(response, title) {
+  //     console.log(title)
+  //     const url = window.URL.createObjectURL(new Blob([response.data]))
+  //     const link = document.createElement('a')
+  //     link.href = url
+  //     link.setAttribute('download', title)
+  //     document.body.appendChild(link)
+  //     link.click()
+  //   },
+  //   downloadWithAxios(url, title) {
+  //     axios({
+  //       method: 'get',
+  //       url,
+  //       responseType: 'arraybuffer',
+  //     })
+  //       .then((response) => {
+  //         this.forceFileDownload(response, title)
+  //       })
+  //       .catch(() => console.log('error occured'))
+  //   }
+  //   }
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->

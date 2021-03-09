@@ -78,6 +78,7 @@ h2{
 
 .presentation h2{
   border: initial;
+  margin-left: 0;
 }
 
 h3, h4{
@@ -93,7 +94,7 @@ a{
 
 a:hover{
   text-decoration: none !important;
-  color: #1F1F1F !important;
+  color: #1F1F1F;
 }
 
 
@@ -221,7 +222,7 @@ footer a:hover{
 
 @media only screen and (max-width:536px){
   .navbar-nav .nav-link{
-    padding-left: .5rem;
+    padding-left: .5rem !important;
   }
 
   .nav-link{
